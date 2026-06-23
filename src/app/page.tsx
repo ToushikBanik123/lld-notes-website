@@ -1,65 +1,69 @@
-import Image from "next/image";
+import Link from 'next/link';
+import { getModules } from '@/lib/content';
 
 export default function Home() {
+  const modules = getModules();
+  // Sort modules by name (which starts with digits like "01 - ")
+  const sortedModules = Object.keys(modules).sort();
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <div className="max-w-screen-xl mx-auto px-4 py-8 md:py-16">
+      
+      {/* Hero Section */}
+      <div className="border-b-4 border-black pb-12 mb-12">
+        <h2 className="font-serif text-5xl md:text-8xl font-black uppercase tracking-tighter leading-[0.9] mb-6">
+          The Definitive <br/> Guide to LLD
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-start">
+          <div className="md:col-span-8 font-body text-lg md:text-xl leading-relaxed text-justify">
+            <span className="float-left text-7xl font-serif font-black mr-4 leading-[0.8] mt-2">W</span>
+            elcome to the ultimate collection of Low-Level Design notes. 
+            Whether you are preparing for software engineering interviews or just looking 
+            to solidify your understanding of Object-Oriented principles, SOLID guidelines, 
+            and design patterns, you will find everything you need right here.
+          </div>
+          <div className="md:col-span-4 border-l-0 md:border-l border-black md:pl-8">
+            <h3 className="font-mono text-xs uppercase tracking-widest font-bold border-b border-black pb-2 mb-4">
+              Breaking News
+            </h3>
+            <ul className="space-y-4">
+              <li className="font-serif text-xl font-bold leading-tight">
+                Design Patterns Demystified: Creational, Structural & Behavioral
+              </li>
+              <li className="font-serif text-xl font-bold leading-tight">
+                Tackling the Parking Lot: A Comprehensive Interview Guide
+              </li>
+            </ul>
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
+      </div>
+
+      {/* Grid of Modules */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0 border-t border-l border-black">
+        {sortedModules.map((moduleName, index) => {
+          const notes = modules[moduleName];
+          return (
+            <div key={moduleName} className="border-r border-b border-black p-6 md:p-8 bg-[#F9F9F7] hover:bg-[#E5E5E0] transition-colors duration-200">
+              <h3 className="font-mono text-xs uppercase tracking-widest font-bold mb-4 text-[#CC0000]">
+                {moduleName}
+              </h3>
+              <ul className="space-y-3">
+                {notes.map(note => (
+                  <li key={note.slug.join('/')}>
+                    <Link 
+                      href={`/${note.slug.join('/')}`}
+                      className="font-serif text-xl lg:text-2xl font-bold leading-tight hover:underline underline-offset-4 decoration-2 decoration-[#CC0000]"
+                    >
+                      {note.title}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          );
+        })}
+      </div>
+
     </div>
   );
 }
