@@ -1,3 +1,3 @@
-:HL["/lld-notes-website/_next/static/chunks/2w1b4bfyajjof.css","style"]
+:HL["/lld-notes-website/_next/static/chunks/1yhwek7kv78xs.css","style"]
 :HL["../assets/class-diagrams/carrentalsystem-class-diagram.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"slug","param":{"type":"c","key":"16%20-%20Interview%20Problems%20Part%204/car-rental-system","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"EzSSDvtBSF2AzXKtmDgcm"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"slug","param":{"type":"c","key":"16%20-%20Interview%20Problems%20Part%204/car-rental-system","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"z3GNAWmGFk9CHzYiDCQ2x"}
