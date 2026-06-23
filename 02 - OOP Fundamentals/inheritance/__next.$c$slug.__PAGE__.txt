@@ -1,0 +1,93 @@
+1:"$Sreact.fragment"
+2:I[93957,["/lld-notes-website/_next/static/chunks/1e780bj939qyz.js","/lld-notes-website/_next/static/chunks/3vhbe5bypqrna.js","/lld-notes-website/_next/static/chunks/2zxvdqlxbwu8a.js"],""]
+3:I[90382,["/lld-notes-website/_next/static/chunks/1e780bj939qyz.js","/lld-notes-website/_next/static/chunks/3vhbe5bypqrna.js","/lld-notes-website/_next/static/chunks/2zxvdqlxbwu8a.js"],"default"]
+1a:I[3440,["/lld-notes-website/_next/static/chunks/1e780bj939qyz.js","/lld-notes-website/_next/static/chunks/3vhbe5bypqrna.js"],"OutletBoundary"]
+1b:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","article",null,{"className":"max-w-screen-md mx-auto px-4 py-8 md:py-16","children":[["$","div",null,{"className":"mb-12 border-b-4 border-black pb-8","children":[["$","$L2",null,{"href":"/","className":"inline-flex items-center text-xs font-mono uppercase tracking-widest font-bold mb-6 hover:text-[#CC0000] transition-colors","children":[["$","$L3",null,{"iconNode":[["path",{"d":"m12 19-7-7 7-7","key":"1l729n"}],["path",{"d":"M19 12H5","key":"x3x0zl"}]],"className":"lucide-arrow-left w-4 h-4 mr-2"}],"Back to Index"]}],["$","div",null,{"className":"flex gap-4 items-center mb-4 font-mono text-xs uppercase tracking-widest text-neutral-500","children":[["$","span",null,{"children":["Module: ","02 - OOP Fundamentals"]}],["$","span",null,{"children":["Published: ","2026-06-12"]}]]}],["$","h1",null,{"className":"font-serif text-4xl md:text-6xl font-black uppercase tracking-tighter leading-none mb-4","children":"Inheritance"}],["$","div",null,{"className":"flex gap-2 flex-wrap mt-4","children":[["$","span","lld",{"className":"border border-black px-2 py-1 text-[10px] font-mono uppercase tracking-wider","children":"lld"}],["$","span","oop",{"className":"border border-black px-2 py-1 text-[10px] font-mono uppercase tracking-wider","children":"oop"}],["$","span","inheritance",{"className":"border border-black px-2 py-1 text-[10px] font-mono uppercase tracking-wider","children":"inheritance"}]]}]]}],["$","div",null,{"className":"prose prose-lg prose-neutral max-w-none font-body","children":[["$","h2","h1-0",{"className":"font-serif text-3xl font-black mt-12 mb-6 uppercase","children":"📌 Inheritance"}],"\n",["$","blockquote","blockquote-0",{"className":"border-l-4 border-black pl-6 py-2 my-8 italic text-neutral-700 bg-neutral-100/50","children":["\n",["$","p","p-0",{"className":"mb-6 leading-relaxed text-justify","children":["[!info] Navigation\n",["$","strong","strong-0",{"children":"Module:"}]," [[00 - Course Overview/index|← Course Overview]]\n",["$","strong","strong-1",{"children":"Prev:"}]," [[02 - OOP Fundamentals/abstraction|← Abstraction]]\n",["$","strong","strong-2",{"children":"Next:"}]," [[02 - OOP Fundamentals/polymorphism|Polymorphism →]]"]}],"\n"]}],"\n",["$","hr","hr-0",{}],"\n",["$","h3","h2-0",{"className":"font-serif text-2xl font-bold mt-10 mb-4","children":"🎯 What You'll Learn"}],"\n",["$","ul","ul-0",{"className":"list-disc list-outside ml-6 mb-6 space-y-2","children":["\n",["$","li","li-0",{"children":"What inheritance is and the IS-A relationship"}],"\n",["$","li","li-1",{"children":"Types of inheritance"}],"\n",["$","li","li-2",{"children":"Method overriding"}],"\n",["$","li","li-3",{"children":["The ",["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"super"}]," / base class concept"]}],"\n",["$","li","li-4",{"children":"When to use inheritance vs composition"}],"\n"]}],"\n",["$","hr","hr-1",{}],"\n",["$","h3","h2-1",{"className":"font-serif text-2xl font-bold mt-10 mb-4","children":"📖 What is Inheritance?"}],"\n",["$","p","p-0",{"className":"mb-6 leading-relaxed text-justify","children":[["$","strong","strong-0",{"children":"Inheritance"}]," is a mechanism where a new class (",["$","strong","strong-1",{"children":"child/derived"}],") acquires the properties and behaviors of an existing class (",["$","strong","strong-2",{"children":"parent/base"}],")."]}],"\n",["$","blockquote","blockquote-1",{"className":"border-l-4 border-black pl-6 py-2 my-8 italic text-neutral-700 bg-neutral-100/50","children":["\n",["$","p","p-0",{"className":"mb-6 leading-relaxed text-justify","children":["[!example] Real-World Analogy 🧬\nA child inherits traits from their parents — eye color, height, etc.\nBut they can also develop their own ",["$","strong","strong-0",{"children":"unique"}]," traits (overriding or extending)."]}],"\n"]}],"\n",["$","div","pre-0,code-0",{"className":"border border-black my-6 bg-[#F9F9F7] overflow-hidden","children":[["$","div",null,{"className":"border-b border-black bg-black text-white px-4 py-1 text-xs font-mono uppercase tracking-widest flex justify-between","children":"$L4"}],"$L5"]}],"\n","$L6","\n","$L7","\n","$L8","\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16"]}]]}],["$L17"],"$L18"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"pABUS1kCPhVA1QaI2ni7b"}
+4:["$","span",null,{"children":"mermaid"}]
+5:["$","pre",null,{"className":"p-4 overflow-x-auto text-sm font-mono","children":["$","code",null,{"className":"language-mermaid","children":"classDiagram\n    class Animal {\n        -String name\n        -int age\n        +eat() void\n        +sleep() void\n        +makeSound() void\n    }\n\n    class Dog {\n        -String breed\n        +makeSound() void\n        +fetch() void\n    }\n\n    class Cat {\n        -bool isIndoor\n        +makeSound() void\n        +purr() void\n    }\n\n    Animal <|-- Dog : extends\n    Animal <|-- Cat : extends\n"}]}]
+6:["$","hr","hr-2",{}]
+7:["$","h3","h2-2",{"className":"font-serif text-2xl font-bold mt-10 mb-4","children":"🧪 Code Example"}]
+19:T5e3,#include <iostream>
+#include <string>
+using namespace std;
+
+// Base class (Parent)
+class Animal {
+protected:
+    string name;
+    int age;
+
+public:
+    Animal(string n, int a) : name(n), age(a) {}
+
+    void eat() { cout << name << " is eating." << endl; }
+    void sleep() { cout << name << " is sleeping." << endl; }
+
+    // Virtual method — can be overridden
+    virtual void makeSound() {
+        cout << name << " makes a generic sound." << endl;
+    }
+
+    virtual ~Animal() {}
+};
+
+// Derived class (Child)
+class Dog : public Animal {
+    string breed;
+
+public:
+    Dog(string n, int a, string b) : Animal(n, a), breed(b) {}
+
+    // Override parent method
+    void makeSound() override {
+        cout << name << " barks! 🐕" << endl;
+    }
+
+    // New method specific to Dog
+    void fetch() { cout << name << " fetches the ball!" << endl; }
+};
+
+class Cat : public Animal {
+public:
+    Cat(string n, int a) : Animal(n, a) {}
+
+    void makeSound() override {
+        cout << name << " meows! 🐱" << endl;
+    }
+
+    void purr() { cout << name << " purrs..." << endl; }
+};
+
+int main() {
+    Dog dog("Buddy", 3, "Golden Retriever");
+    Cat cat("Whiskers", 2);
+
+    dog.eat();       // ✅ Inherited from Animal
+    dog.makeSound(); // ✅ Overridden: "Buddy barks! 🐕"
+    dog.fetch();     // ✅ Dog-specific method
+
+    cat.eat();       // ✅ Inherited from Animal
+    cat.makeSound(); // ✅ Overridden: "Whiskers meows! 🐱"
+    cat.purr();      // ✅ Cat-specific method
+
+    return 0;
+}
+8:["$","div","pre-1,code-0",{"className":"border border-black my-6 bg-[#F9F9F7] overflow-hidden","children":[["$","div",null,{"className":"border-b border-black bg-black text-white px-4 py-1 text-xs font-mono uppercase tracking-widest flex justify-between","children":["$","span",null,{"children":"cpp"}]}],["$","pre",null,{"className":"p-4 overflow-x-auto text-sm font-mono","children":["$","code",null,{"className":"language-cpp","children":"$19"}]}]]}]
+9:["$","hr","hr-3",{}]
+a:["$","h3","h2-3",{"className":"font-serif text-2xl font-bold mt-10 mb-4","children":"📊 Types of Inheritance"}]
+b:["$","div","pre-2,code-0",{"className":"border border-black my-6 bg-[#F9F9F7] overflow-hidden","children":[["$","div",null,{"className":"border-b border-black bg-black text-white px-4 py-1 text-xs font-mono uppercase tracking-widest flex justify-between","children":["$","span",null,{"children":"mermaid"}]}],["$","pre",null,{"className":"p-4 overflow-x-auto text-sm font-mono","children":["$","code",null,{"className":"language-mermaid","children":"graph TB\n    subgraph \"Single\"\n        A1[\"A\"] --> B1[\"B\"]\n    end\n\n    subgraph \"Multilevel\"\n        A2[\"A\"] --> B2[\"B\"] --> C2[\"C\"]\n    end\n\n    subgraph \"Hierarchical\"\n        A3[\"A\"] --> B3[\"B\"]\n        A3 --> C3[\"C\"]\n        A3 --> D3[\"D\"]\n    end\n\n    subgraph \"Multiple ⚠️\"\n        A4[\"A\"] --> C4[\"C\"]\n        B4[\"B\"] --> C4\n    end\n\n    style A1 fill:#4ecdc4,color:#000\n    style A2 fill:#4ecdc4,color:#000\n    style A3 fill:#4ecdc4,color:#000\n    style A4 fill:#ff6b6b,color:#fff\n    style B4 fill:#ff6b6b,color:#fff\n"}]}]]}]
+c:["$","table","table-0",{"children":[["$","thead","thead-0",{"children":["$","tr","tr-0",{"children":[["$","th","th-0",{"children":"Type"}],["$","th","th-1",{"children":"Description"}],["$","th","th-2",{"children":"Supported In"}]]}]}],["$","tbody","tbody-0",{"children":[["$","tr","tr-0",{"children":[["$","td","td-0",{"children":["$","strong","strong-0",{"children":"Single"}]}],["$","td","td-1",{"children":"One parent → one child"}],["$","td","td-2",{"children":"C++, Java"}]]}],["$","tr","tr-1",{"children":[["$","td","td-0",{"children":["$","strong","strong-0",{"children":"Multilevel"}]}],["$","td","td-1",{"children":"A → B → C (chain)"}],["$","td","td-2",{"children":"C++, Java"}]]}],["$","tr","tr-2",{"children":[["$","td","td-0",{"children":["$","strong","strong-0",{"children":"Hierarchical"}]}],["$","td","td-1",{"children":"One parent → multiple children"}],["$","td","td-2",{"children":"C++, Java"}]]}],["$","tr","tr-3",{"children":[["$","td","td-0",{"children":["$","strong","strong-0",{"children":"Multiple"}]}],["$","td","td-1",{"children":"Multiple parents → one child"}],["$","td","td-2",{"children":"C++ only (⚠️ Diamond problem)"}]]}]]}]]}]
+d:["$","blockquote","blockquote-2",{"className":"border-l-4 border-black pl-6 py-2 my-8 italic text-neutral-700 bg-neutral-100/50","children":["\n",["$","p","p-0",{"className":"mb-6 leading-relaxed text-justify","children":["[!warning] Diamond Problem\nMultiple inheritance can cause ambiguity when two parent classes have the same method. C++ solves this with ",["$","strong","strong-0",{"children":"virtual inheritance"}],". Java avoids it entirely by using ",["$","strong","strong-1",{"children":"interfaces"}]," instead."]}],"\n"]}]
+e:["$","hr","hr-4",{}]
+f:["$","h3","h2-4",{"className":"font-serif text-2xl font-bold mt-10 mb-4","children":"⚖️ Inheritance vs Composition"}]
+10:["$","table","table-1",{"children":[["$","thead","thead-0",{"children":["$","tr","tr-0",{"children":[["$","th","th-0",{"children":"Aspect"}],["$","th","th-1",{"children":"Inheritance"}],["$","th","th-2",{"children":"Composition"}]]}]}],["$","tbody","tbody-0",{"children":[["$","tr","tr-0",{"children":[["$","td","td-0",{"children":["$","strong","strong-0",{"children":"Relationship"}]}],["$","td","td-1",{"children":["IS-A (Dog ",["$","em","em-0",{"children":"is a"}]," Animal)"]}],["$","td","td-2",{"children":["HAS-A (Car ",["$","em","em-0",{"children":"has a"}]," Engine)"]}]]}],["$","tr","tr-1",{"children":[["$","td","td-0",{"children":["$","strong","strong-0",{"children":"Coupling"}]}],["$","td","td-1",{"children":"Tight (child depends on parent)"}],["$","td","td-2",{"children":"Loose (objects are independent)"}]]}],["$","tr","tr-2",{"children":[["$","td","td-0",{"children":["$","strong","strong-0",{"children":"Flexibility"}]}],["$","td","td-1",{"children":"Less flexible (hierarchy is fixed)"}],["$","td","td-2",{"children":"More flexible (swap at runtime)"}]]}],["$","tr","tr-3",{"children":[["$","td","td-0",{"children":["$","strong","strong-0",{"children":"When to use"}]}],["$","td","td-1",{"children":"Natural hierarchies"}],["$","td","td-2",{"children":"Behavior reuse without hierarchy"}]]}]]}]]}]
+11:["$","blockquote","blockquote-3",{"className":"border-l-4 border-black pl-6 py-2 my-8 italic text-neutral-700 bg-neutral-100/50","children":["\n",["$","p","p-0",{"className":"mb-6 leading-relaxed text-justify","children":["[!tip] Favor Composition Over Inheritance\nThis is a well-known design principle. Use inheritance for genuine IS-A relationships. Use composition when you just want to ",["$","strong","strong-0",{"children":"reuse behavior"}],"."]}],"\n"]}]
+12:["$","hr","hr-5",{}]
+13:["$","h3","h2-5",{"className":"font-serif text-2xl font-bold mt-10 mb-4","children":"✅ Quick Revision"}]
+14:["$","table","table-2",{"children":[["$","thead","thead-0",{"children":["$","tr","tr-0",{"children":[["$","th","th-0",{"children":"Concept"}],["$","th","th-1",{"children":"Description"}]]}]}],["$","tbody","tbody-0",{"children":[["$","tr","tr-0",{"children":[["$","td","td-0",{"children":["$","strong","strong-0",{"children":"Inheritance"}]}],["$","td","td-1",{"children":"Child class acquires parent's properties and methods"}]]}],["$","tr","tr-1",{"children":[["$","td","td-0",{"children":["$","strong","strong-0",{"children":"IS-A"}]}],["$","td","td-1",{"children":"Dog IS-A Animal"}]]}],["$","tr","tr-2",{"children":[["$","td","td-0",{"children":["$","strong","strong-0",{"children":"Override"}]}],["$","td","td-1",{"children":"Child provides its own version of a parent method"}]]}],["$","tr","tr-3",{"children":[["$","td","td-0",{"children":["$","strong","strong-0",{"children":[["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"super"}]," / base"]}]}],["$","td","td-1",{"children":"Refers to the parent class"}]]}],["$","tr","tr-4",{"children":[["$","td","td-0",{"children":["$","strong","strong-0",{"children":"Virtual method"}]}],["$","td","td-1",{"children":["Method that can be overridden (C++ needs ",["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"virtual"}]," keyword)"]}]]}]]}]]}]
+15:["$","hr","hr-6",{}]
+16:["$","blockquote","blockquote-4",{"className":"border-l-4 border-black pl-6 py-2 my-8 italic text-neutral-700 bg-neutral-100/50","children":["\n",["$","p","p-0",{"className":"mb-6 leading-relaxed text-justify","children":["[!quote] Key Takeaway\nInheritance models ",["$","strong","strong-0",{"children":"IS-A"}]," relationships. A Dog IS-A Animal. Use it for natural hierarchies, but prefer composition when you just need to reuse behavior."]}],"\n"]}]
+17:["$","script","script-0",{"src":"/lld-notes-website/_next/static/chunks/2zxvdqlxbwu8a.js","async":true}]
+18:["$","$L1a",null,{"children":["$","$1b",null,{"name":"Next.MetadataOutlet","children":"$@1c"}]}]
+1c:null

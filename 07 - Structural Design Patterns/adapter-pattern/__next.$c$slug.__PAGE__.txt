@@ -1,0 +1,63 @@
+1:"$Sreact.fragment"
+2:I[93957,["/lld-notes-website/_next/static/chunks/1e780bj939qyz.js","/lld-notes-website/_next/static/chunks/3vhbe5bypqrna.js","/lld-notes-website/_next/static/chunks/2zxvdqlxbwu8a.js"],""]
+3:I[90382,["/lld-notes-website/_next/static/chunks/1e780bj939qyz.js","/lld-notes-website/_next/static/chunks/3vhbe5bypqrna.js","/lld-notes-website/_next/static/chunks/2zxvdqlxbwu8a.js"],"default"]
+17:I[3440,["/lld-notes-website/_next/static/chunks/1e780bj939qyz.js","/lld-notes-website/_next/static/chunks/3vhbe5bypqrna.js"],"OutletBoundary"]
+18:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","article",null,{"className":"max-w-screen-md mx-auto px-4 py-8 md:py-16","children":[["$","div",null,{"className":"mb-12 border-b-4 border-black pb-8","children":[["$","$L2",null,{"href":"/","className":"inline-flex items-center text-xs font-mono uppercase tracking-widest font-bold mb-6 hover:text-[#CC0000] transition-colors","children":[["$","$L3",null,{"iconNode":[["path",{"d":"m12 19-7-7 7-7","key":"1l729n"}],["path",{"d":"M19 12H5","key":"x3x0zl"}]],"className":"lucide-arrow-left w-4 h-4 mr-2"}],"Back to Index"]}],["$","div",null,{"className":"flex gap-4 items-center mb-4 font-mono text-xs uppercase tracking-widest text-neutral-500","children":[["$","span",null,{"children":["Module: ","07 - Structural Design Patterns"]}],["$","span",null,{"children":["Published: ","2026-06-12"]}]]}],["$","h1",null,{"className":"font-serif text-4xl md:text-6xl font-black uppercase tracking-tighter leading-none mb-4","children":"Adapter Pattern"}],["$","div",null,{"className":"flex gap-2 flex-wrap mt-4","children":[["$","span","lld",{"className":"border border-black px-2 py-1 text-[10px] font-mono uppercase tracking-wider","children":"lld"}],["$","span","design-patterns",{"className":"border border-black px-2 py-1 text-[10px] font-mono uppercase tracking-wider","children":"design-patterns"}],["$","span","structural",{"className":"border border-black px-2 py-1 text-[10px] font-mono uppercase tracking-wider","children":"structural"}],["$","span","adapter",{"className":"border border-black px-2 py-1 text-[10px] font-mono uppercase tracking-wider","children":"adapter"}]]}]]}],["$","div",null,{"className":"prose prose-lg prose-neutral max-w-none font-body","children":[["$","h2","h1-0",{"className":"font-serif text-3xl font-black mt-12 mb-6 uppercase","children":"📌 Adapter Pattern"}],"\n",["$","blockquote","blockquote-0",{"className":"border-l-4 border-black pl-6 py-2 my-8 italic text-neutral-700 bg-neutral-100/50","children":["\n",["$","p","p-0",{"className":"mb-6 leading-relaxed text-justify","children":["[!info] Navigation\n",["$","strong","strong-0",{"children":"Module:"}]," [[00 - Course Overview/index|← Course Overview]]\n",["$","strong","strong-1",{"children":"Prev:"}]," [[07 - Structural Design Patterns/overview|← Structural Patterns Intro]]\n",["$","strong","strong-2",{"children":"Next:"}]," [[07 - Structural Design Patterns/bridge-pattern|Bridge Pattern →]]"]}],"\n"]}],"\n",["$","hr","hr-0",{}],"\n",["$","h3","h2-0",{"className":"font-serif text-2xl font-bold mt-10 mb-4","children":"🎯 What is the Adapter Pattern?"}],"\n",["$","p","p-0",{"className":"mb-6 leading-relaxed text-justify","children":["The ",["$","strong","strong-0",{"children":"Adapter Pattern"}]," allows incompatible interfaces to work together by acting as a ",["$","strong","strong-1",{"children":"translator"}]," or ",["$","strong","strong-2",{"children":"wrapper"}]," around an existing class."]}],"\n",["$","p","p-1",{"className":"mb-6 leading-relaxed text-justify","children":"It converts the interface of a class (the Adaptee) into another interface that a client expects (the Target)."}],"\n",["$","blockquote","blockquote-1",{"className":"border-l-4 border-black pl-6 py-2 my-8 italic text-neutral-700 bg-neutral-100/50","children":["\n",["$","p","p-0",{"className":"mb-6 leading-relaxed text-justify","children":["[!example] Real-World Analogy 🔌\nImagine traveling from India to Europe. Your laptop charger has an Indian plug, but the hotel room only has European sockets.\nInstead of buying a new laptop or rewiring the hotel, you use a ",["$","strong","strong-0",{"children":"travel plug adapter"}],". The adapter makes your charger compatible with the wall socket without modifying either."]}],"\n"]}],"\n",["$","hr","hr-1",{}],"\n",["$","h3","h2-1",{"className":"font-serif text-2xl font-bold mt-10 mb-4","children":"⚠️ The Problem: Incompatible Interfaces"}],"\n",["$","p","p-2",{"className":"mb-6 leading-relaxed text-justify","children":["Suppose we have a ","$L4"," that processes payments. It expects any payment provider to implement the standard ","$L5"," interface."]}],"\n","$L6","\n","$L7","\n","$L8","\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13"]}]]}],["$L14"],"$L15"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"pABUS1kCPhVA1QaI2ni7b"}
+4:["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"CheckoutService"}]
+5:["$","code","code-1",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"PaymentGateway"}]
+6:["$","p","p-3",{"className":"mb-6 leading-relaxed text-justify","children":[["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"PayUGateway"}]," follows this interface perfectly. But we want to add ",["$","code","code-1",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"RazorpayAPI"}],", which is an external library and uses a different method name (",["$","code","code-2",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"makePayment"}]," instead of ",["$","code","code-3",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"pay"}],") and different parameter types."]}]
+7:["$","div","pre-0,code-0",{"className":"border border-black my-6 bg-[#F9F9F7] overflow-hidden","children":[["$","div",null,{"className":"border-b border-black bg-black text-white px-4 py-1 text-xs font-mono uppercase tracking-widest flex justify-between","children":["$","span",null,{"children":"cpp"}]}],["$","pre",null,{"className":"p-4 overflow-x-auto text-sm font-mono","children":["$","code",null,{"className":"language-cpp","children":"// Target Interface expected by our system\nclass PaymentGateway {\npublic:\n    virtual void pay(const string& orderId, double amount) = 0;\n};\n\n// Existing incompatible class (Adaptee)\nclass RazorpayAPI {\npublic:\n    // Different method signature!\n    void makePayment(const string& invoiceId, double amountInRupees) {\n        cout << \"Paid via Razorpay: \" << amountInRupees << \"\\n\";\n    }\n};\n\n// ❌ The Client cannot use RazorpayAPI directly!\nclass CheckoutService {\n    shared_ptr<PaymentGateway> gateway;\npublic:\n    void checkout() {\n        gateway->pay(\"123\", 500); // RazorpayAPI doesn't have pay()\n    }\n};\n"}]}]]}]
+8:["$","hr","hr-2",{}]
+9:["$","h3","h2-2",{"className":"font-serif text-2xl font-bold mt-10 mb-4","children":"🛠️ The Solution: The Adapter"}]
+a:["$","p","p-4",{"className":"mb-6 leading-relaxed text-justify","children":["We create a ",["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"RazorpayAdapter"}]," class that implements our ",["$","code","code-1",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"PaymentGateway"}]," interface but internally delegates the work to ",["$","code","code-2",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"RazorpayAPI"}],"."]}]
+16:T427,// 1. Target Interface
+class PaymentGateway {
+public:
+    virtual ~PaymentGateway() = default;
+    virtual void pay(const string& orderId, double amount) = 0;
+};
+
+// 2. The Adaptee (Incompatible)
+class RazorpayAPI {
+public:
+    void makePayment(const string& invoiceId, double amountInRupees) {
+        cout << "Paid Rs. " << amountInRupees << " via Razorpay for invoice: " << invoiceId << "\n";
+    }
+};
+
+// 3. The Adapter
+class RazorpayAdapter : public PaymentGateway {
+private:
+    shared_ptr<RazorpayAPI> razorpayAPI;
+
+public:
+    RazorpayAdapter() {
+        razorpayAPI = make_shared<RazorpayAPI>();
+    }
+
+    // Translates the expected interface to the Adaptee's interface
+    void pay(const string& orderId, double amount) override {
+        // We map 'orderId' to 'invoiceId' under the hood
+        razorpayAPI->makePayment(orderId, amount);
+    }
+};
+
+// 4. Client Code
+int main() {
+    // Client treats it like a standard PaymentGateway
+    shared_ptr<PaymentGateway> gateway = make_shared<RazorpayAdapter>();
+    gateway->pay("ORDER_999", 1500.00); 
+}
+b:["$","div","pre-1,code-0",{"className":"border border-black my-6 bg-[#F9F9F7] overflow-hidden","children":[["$","div",null,{"className":"border-b border-black bg-black text-white px-4 py-1 text-xs font-mono uppercase tracking-widest flex justify-between","children":["$","span",null,{"children":"cpp"}]}],["$","pre",null,{"className":"p-4 overflow-x-auto text-sm font-mono","children":["$","code",null,{"className":"language-cpp","children":"$16"}]}]]}]
+c:["$","hr","hr-3",{}]
+d:["$","h3","h2-3",{"className":"font-serif text-2xl font-bold mt-10 mb-4","children":"📊 UML Visualization"}]
+e:["$","div","pre-2,code-0",{"className":"border border-black my-6 bg-[#F9F9F7] overflow-hidden","children":[["$","div",null,{"className":"border-b border-black bg-black text-white px-4 py-1 text-xs font-mono uppercase tracking-widest flex justify-between","children":["$","span",null,{"children":"mermaid"}]}],["$","pre",null,{"className":"p-4 overflow-x-auto text-sm font-mono","children":["$","code",null,{"className":"language-mermaid","children":"classDiagram\n    class PaymentGateway {\n        <<interface>>\n        +pay(orderId, amount)\n    }\n\n    class RazorpayAdapter {\n        -RazorpayAPI razorpayAPI\n        +pay(orderId, amount)\n    }\n\n    class RazorpayAPI {\n        <<Adaptee>>\n        +makePayment(invoiceId, amount)\n    }\n\n    class CheckoutService {\n        +checkout()\n    }\n\n    CheckoutService --> PaymentGateway : Uses\n    PaymentGateway <|.. RazorpayAdapter : Implements\n    RazorpayAdapter --> RazorpayAPI : Translates calls to\n"}]}]]}]
+f:["$","hr","hr-4",{}]
+10:["$","h3","h2-4",{"className":"font-serif text-2xl font-bold mt-10 mb-4","children":"✅ Pros and Cons"}]
+11:["$","table","table-0",{"children":[["$","thead","thead-0",{"children":["$","tr","tr-0",{"children":[["$","th","th-0",{"children":"Pros"}],["$","th","th-1",{"children":"Cons"}]]}]}],["$","tbody","tbody-0",{"children":[["$","tr","tr-0",{"children":[["$","td","td-0",{"children":[["$","strong","strong-0",{"children":"Reusability:"}]," Reuses existing legacy or 3rd-party code without changing its source"]}],["$","td","td-1",{"children":[["$","strong","strong-0",{"children":"Complexity:"}]," Adds an extra layer of abstraction"]}]]}],["$","tr","tr-1",{"children":[["$","td","td-0",{"children":[["$","strong","strong-0",{"children":"OCP Compliant:"}]," You can add adapters for new services without modifying client code"]}],["$","td","td-1",{"children":[["$","strong","strong-0",{"children":"Overuse:"}]," Sometimes it's better to just refactor the Adaptee if you own the code"]}]]}]]}]]}]
+12:["$","hr","hr-5",{}]
+13:["$","blockquote","blockquote-2",{"className":"border-l-4 border-black pl-6 py-2 my-8 italic text-neutral-700 bg-neutral-100/50","children":["\n",["$","p","p-0",{"className":"mb-6 leading-relaxed text-justify","children":"[!quote] Key Takeaway\nUse the Adapter Pattern when you want to use an existing class, but its interface doesn't match what your system expects (especially common when integrating third-party libraries or legacy code)."}],"\n"]}]
+14:["$","script","script-0",{"src":"/lld-notes-website/_next/static/chunks/2zxvdqlxbwu8a.js","async":true}]
+15:["$","$L17",null,{"children":["$","$18",null,{"name":"Next.MetadataOutlet","children":"$@19"}]}]
+19:null

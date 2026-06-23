@@ -1,0 +1,156 @@
+1:"$Sreact.fragment"
+2:I[93957,["/lld-notes-website/_next/static/chunks/1e780bj939qyz.js","/lld-notes-website/_next/static/chunks/3vhbe5bypqrna.js","/lld-notes-website/_next/static/chunks/2zxvdqlxbwu8a.js"],""]
+3:I[90382,["/lld-notes-website/_next/static/chunks/1e780bj939qyz.js","/lld-notes-website/_next/static/chunks/3vhbe5bypqrna.js","/lld-notes-website/_next/static/chunks/2zxvdqlxbwu8a.js"],"default"]
+14:I[3440,["/lld-notes-website/_next/static/chunks/1e780bj939qyz.js","/lld-notes-website/_next/static/chunks/3vhbe5bypqrna.js"],"OutletBoundary"]
+15:"$Sreact.suspense"
+:HL["../assets/class-diagrams/parkinglot-class-diagram.png","image"]
+0:{"rsc":["$","$1","c",{"children":[["$","article",null,{"className":"max-w-screen-md mx-auto px-4 py-8 md:py-16","children":[["$","div",null,{"className":"mb-12 border-b-4 border-black pb-8","children":[["$","$L2",null,{"href":"/","className":"inline-flex items-center text-xs font-mono uppercase tracking-widest font-bold mb-6 hover:text-[#CC0000] transition-colors","children":[["$","$L3",null,{"iconNode":[["path",{"d":"m12 19-7-7 7-7","key":"1l729n"}],["path",{"d":"M19 12H5","key":"x3x0zl"}]],"className":"lucide-arrow-left w-4 h-4 mr-2"}],"Back to Index"]}],["$","div",null,{"className":"flex gap-4 items-center mb-4 font-mono text-xs uppercase tracking-widest text-neutral-500","children":[["$","span",null,{"children":["Module: ","13 - Interview Problems Part 1"]}],["$","span",null,{"children":["Published: ","2026-06-12"]}]]}],["$","h1",null,{"className":"font-serif text-4xl md:text-6xl font-black uppercase tracking-tighter leading-none mb-4","children":"Designing a Parking Lot System"}],["$","div",null,{"className":"flex gap-2 flex-wrap mt-4","children":[["$","span","lld",{"className":"border border-black px-2 py-1 text-[10px] font-mono uppercase tracking-wider","children":"lld"}],["$","span","parking-lot",{"className":"border border-black px-2 py-1 text-[10px] font-mono uppercase tracking-wider","children":"parking-lot"}],["$","span","interview-problem",{"className":"border border-black px-2 py-1 text-[10px] font-mono uppercase tracking-wider","children":"interview-problem"}],["$","span","repository-pattern",{"className":"border border-black px-2 py-1 text-[10px] font-mono uppercase tracking-wider","children":"repository-pattern"}]]}]]}],["$","div",null,{"className":"prose prose-lg prose-neutral max-w-none font-body","children":[["$","h2","h1-0",{"className":"font-serif text-3xl font-black mt-12 mb-6 uppercase","children":"📌 Designing a Parking Lot System"}],"\n",["$","blockquote","blockquote-0",{"className":"border-l-4 border-black pl-6 py-2 my-8 italic text-neutral-700 bg-neutral-100/50","children":["\n",["$","p","p-0",{"className":"mb-6 leading-relaxed text-justify","children":["[!info] Navigation\n",["$","strong","strong-0",{"children":"Module:"}]," [[13 - Interview Problems Part 1/index|← Interview Problems Part 1 Overview]]\n",["$","strong","strong-1",{"children":"Prev:"}]," [[13 - Interview Problems Part 1/logging-framework|← Designing a Logging Framework]]\n",["$","strong","strong-2",{"children":"Next:"}]," [[13 - Interview Problems Part 1/task-management-system|Designing a Task Mgmt System →]]"]}],"\n"]}],"\n",["$","hr","hr-0",{}],"\n",["$","h3","h2-0",{"className":"font-serif text-2xl font-bold mt-10 mb-4","children":"🎯 Step 1: Clarify Requirements"}],"\n",["$","h4","h3-0",{"className":"font-serif text-xl font-bold mt-8 mb-4","children":"Functional Requirements"}],"\n",["$","ol","ol-0",{"className":"list-decimal list-outside ml-6 mb-6 space-y-2","children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"Entry:"}]," Vehicle arrives. System assigns an available slot based on Vehicle Type (Car, Bike, Truck). Generates a Ticket. Marks slot as occupied."]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":"Exit:"}]," Present Ticket. Calculate fee based on pricing rules (e.g., flat rate or hourly). Process payment. Release slot."]}],"\n",["$","li","li-2",{"children":[["$","strong","strong-0",{"children":"Administration:"}]," Ability to add floors, add slots, update pricing rules."]}],"\n"]}],"\n",["$","h4","h3-1",{"className":"font-serif text-xl font-bold mt-8 mb-4","children":"Non-Functional Requirements"}],"\n",["$","ol","ol-1",{"className":"list-decimal list-outside ml-6 mb-6 space-y-2","children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"Scalability:"}]," Must support multiple floors and thousands of slots."]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":"Concurrency:"}]," Handle multiple vehicles arriving at different entry gates simultaneously."]}],"\n"]}],"\n","$L4","\n","$L5","\n","$L6","\n","$L7","\n","$L8","\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10"]}]]}],["$L11"],"$L12"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"pABUS1kCPhVA1QaI2ni7b"}
+4:["$","hr","hr-1",{}]
+5:["$","h3","h2-1",{"className":"font-serif text-2xl font-bold mt-10 mb-4","children":"🧱 Step 2: Identify Core Entities"}]
+6:["$","p","p-0",{"className":"mb-6 leading-relaxed text-justify","children":["$","span","img-0",{"className":"block border border-black p-2 my-8 hard-shadow-hover","children":["$","img",null,{"className":"w-full h-auto grayscale hover:sepia-[50%] transition-all duration-300","src":"../assets/class-diagrams/parkinglot-class-diagram.png","alt":"Parking Lot Class Diagram"}]}]}]
+7:["$","ol","ol-2",{"className":"list-decimal list-outside ml-6 mb-6 space-y-2","children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":[["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"ParkingLot"}],":"]}]," The central system."]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"Vehicle"}]}],": ",["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"id"}],", ",["$","code","code-1",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"licensePlate"}],", ",["$","code","code-2",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"vehicleType"}]," (Car, Bike, Truck)."]}],"\n",["$","li","li-2",{"children":[["$","strong","strong-0",{"children":["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"ParkingSlot"}]}],": ",["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"id"}],", ",["$","code","code-1",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"slotType"}]," (Compact, Large), ",["$","code","code-2",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"isOccupied"}],", ",["$","code","code-3",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"floorNumber"}],"."]}],"\n",["$","li","li-3",{"children":[["$","strong","strong-0",{"children":["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"Ticket"}]}],": ",["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"id"}],", ",["$","code","code-1",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"vehicleId"}],", ",["$","code","code-2",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"slotId"}],", ",["$","code","code-3",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"entryTime"}],"."]}],"\n",["$","li","li-4",{"children":[["$","strong","strong-0",{"children":["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"Receipt"}]}],": ",["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"id"}],", ",["$","code","code-1",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"ticketId"}],", ",["$","code","code-2",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"exitTime"}],", ",["$","code","code-3",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"totalFee"}],"."]}],"\n"]}]
+8:["$","hr","hr-2",{}]
+9:["$","h3","h2-2",{"className":"font-serif text-2xl font-bold mt-10 mb-4","children":"⚙️ Step 3: Architecture & Design Patterns"}]
+a:["$","p","p-1",{"className":"mb-6 leading-relaxed text-justify","children":["We will implement a layered architecture: ",["$","strong","strong-0",{"children":"Controller → Service → Repository → Domain"}],"."]}]
+b:["$","ol","ol-3",{"className":"list-decimal list-outside ml-6 mb-6 space-y-2","children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"Repository Pattern:"}]," To mock database interactions for Slots, Tickets, and Receipts."]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":"Factory Pattern:"}]," To generate different instances of ",["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"PricingStrategy"}]," (e.g., HourlyPricing, FlatPricing)."]}],"\n",["$","li","li-2",{"children":[["$","strong","strong-0",{"children":"Strategy Pattern:"}]," To encapsulate the logic for fee calculation."]}],"\n"]}]
+c:["$","hr","hr-3",{}]
+d:["$","h3","h2-3",{"className":"font-serif text-2xl font-bold mt-10 mb-4","children":"💻 Step 4: Core Implementation (C++)"}]
+13:Tf23,#include <iostream>
+#include <string>
+#include <unordered_map>
+#include <memory>
+#include <chrono>
+
+using namespace std;
+
+// 1. Enums
+enum class VehicleType { CAR, BIKE, TRUCK };
+enum class SlotType { COMPACT, LARGE, MOTORBIKE };
+
+// 2. Entities
+class Vehicle {
+public:
+    string licensePlate;
+    VehicleType type;
+    Vehicle(string lp, VehicleType t) : licensePlate(lp), type(t) {}
+};
+
+class ParkingSlot {
+public:
+    int id;
+    SlotType type;
+    bool isOccupied;
+    ParkingSlot(int i, SlotType t) : id(i), type(t), isOccupied(false) {}
+};
+
+class Ticket {
+public:
+    int ticketId;
+    string licensePlate;
+    int slotId;
+    chrono::system_clock::time_point entryTime;
+    
+    Ticket(int tId, string lp, int sId) : ticketId(tId), licensePlate(lp), slotId(sId) {
+        entryTime = chrono::system_clock::now();
+    }
+};
+
+// 3. Strategy for Pricing
+class PricingStrategy {
+public:
+    virtual double calculateFee(const Ticket& ticket) = 0;
+    virtual ~PricingStrategy() = default;
+};
+
+class HourlyPricingStrategy : public PricingStrategy {
+public:
+    double calculateFee(const Ticket& ticket) override {
+        auto now = chrono::system_clock::now();
+        auto duration = chrono::duration_cast<chrono::hours>(now - ticket.entryTime).count();
+        int hours = max((int)duration, 1); // Minimum 1 hour
+        return hours * 10.0; // $10 per hour
+    }
+};
+
+// 4. Services
+class ParkingService {
+private:
+    unordered_map<int, shared_ptr<ParkingSlot>> slots;
+    unordered_map<int, shared_ptr<Ticket>> tickets;
+    int nextTicketId = 1;
+    shared_ptr<PricingStrategy> pricingStrategy;
+
+public:
+    ParkingService(shared_ptr<PricingStrategy> ps) : pricingStrategy(ps) {}
+
+    void addSlot(int id, SlotType type) {
+        slots[id] = make_shared<ParkingSlot>(id, type);
+    }
+
+    shared_ptr<Ticket> parkVehicle(const Vehicle& vehicle) {
+        // Find available slot (Simple linear search for demo)
+        for (auto& pair : slots) {
+            auto slot = pair.second;
+            if (!slot->isOccupied && isSlotValidForVehicle(slot->type, vehicle.type)) {
+                slot->isOccupied = true;
+                auto ticket = make_shared<Ticket>(nextTicketId++, vehicle.licensePlate, slot->id);
+                tickets[ticket->ticketId] = ticket;
+                cout << "Vehicle " << vehicle.licensePlate << " parked at slot " << slot->id << endl;
+                return ticket;
+            }
+        }
+        cout << "No slot available for vehicle " << vehicle.licensePlate << endl;
+        return nullptr;
+    }
+
+    void exitVehicle(int ticketId) {
+        if (tickets.find(ticketId) == tickets.end()) {
+            cout << "Invalid Ticket!" << endl;
+            return;
+        }
+
+        auto ticket = tickets[ticketId];
+        auto slot = slots[ticket->slotId];
+
+        double fee = pricingStrategy->calculateFee(*ticket);
+        cout << "Vehicle " << ticket->licensePlate << " exiting. Total Fee: $" << fee << endl;
+
+        slot->isOccupied = false; // Free the slot
+        tickets.erase(ticketId);  // Remove ticket
+    }
+
+private:
+    bool isSlotValidForVehicle(SlotType sType, VehicleType vType) {
+        if (vType == VehicleType::CAR && sType == SlotType::COMPACT) return true;
+        if (vType == VehicleType::TRUCK && sType == SlotType::LARGE) return true;
+        if (vType == VehicleType::BIKE && sType == SlotType::MOTORBIKE) return true;
+        return false;
+    }
+};
+
+// Usage
+int main() {
+    auto pricing = make_shared<HourlyPricingStrategy>();
+    ParkingService parkingLot(pricing);
+
+    // Admin Flow
+    parkingLot.addSlot(101, SlotType::COMPACT);
+    parkingLot.addSlot(102, SlotType::LARGE);
+
+    // Entry Flow
+    Vehicle myCar("ABC-123", VehicleType::CAR);
+    auto ticket = parkingLot.parkVehicle(myCar);
+
+    // Exit Flow
+    if (ticket) {
+        parkingLot.exitVehicle(ticket->ticketId);
+    }
+
+    return 0;
+}
+e:["$","div","pre-0,code-0",{"className":"border border-black my-6 bg-[#F9F9F7] overflow-hidden","children":[["$","div",null,{"className":"border-b border-black bg-black text-white px-4 py-1 text-xs font-mono uppercase tracking-widest flex justify-between","children":["$","span",null,{"children":"cpp"}]}],["$","pre",null,{"className":"p-4 overflow-x-auto text-sm font-mono","children":["$","code",null,{"className":"language-cpp","children":"$13"}]}]]}]
+f:["$","h3","h2-4",{"className":"font-serif text-2xl font-bold mt-10 mb-4","children":"🚨 Edge Cases Handled"}]
+10:["$","ul","ul-0",{"className":"list-disc list-outside ml-6 mb-6 space-y-2","children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"No Available Slots:"}]," Fails gracefully and notifies the user."]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":"Pricing Strategy Swap:"}]," Because we depend on ",["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"PricingStrategy"}]," (Dependency Inversion), we can easily inject a ",["$","code","code-1",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"FlatPricingStrategy"}]," instead of ",["$","code","code-2",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"HourlyPricingStrategy"}]," without modifying the core ",["$","code","code-3",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"ParkingService"}],"."]}],"\n"]}]
+11:["$","script","script-0",{"src":"/lld-notes-website/_next/static/chunks/2zxvdqlxbwu8a.js","async":true}]
+12:["$","$L14",null,{"children":["$","$15",null,{"name":"Next.MetadataOutlet","children":"$@16"}]}]
+16:null

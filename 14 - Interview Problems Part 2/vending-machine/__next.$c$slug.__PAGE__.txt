@@ -1,0 +1,162 @@
+1:"$Sreact.fragment"
+2:I[93957,["/lld-notes-website/_next/static/chunks/1e780bj939qyz.js","/lld-notes-website/_next/static/chunks/3vhbe5bypqrna.js","/lld-notes-website/_next/static/chunks/2zxvdqlxbwu8a.js"],""]
+3:I[90382,["/lld-notes-website/_next/static/chunks/1e780bj939qyz.js","/lld-notes-website/_next/static/chunks/3vhbe5bypqrna.js","/lld-notes-website/_next/static/chunks/2zxvdqlxbwu8a.js"],"default"]
+13:I[3440,["/lld-notes-website/_next/static/chunks/1e780bj939qyz.js","/lld-notes-website/_next/static/chunks/3vhbe5bypqrna.js"],"OutletBoundary"]
+14:"$Sreact.suspense"
+:HL["../assets/class-diagrams/vendingmachine-class-diagram.png","image"]
+0:{"rsc":["$","$1","c",{"children":[["$","article",null,{"className":"max-w-screen-md mx-auto px-4 py-8 md:py-16","children":[["$","div",null,{"className":"mb-12 border-b-4 border-black pb-8","children":[["$","$L2",null,{"href":"/","className":"inline-flex items-center text-xs font-mono uppercase tracking-widest font-bold mb-6 hover:text-[#CC0000] transition-colors","children":[["$","$L3",null,{"iconNode":[["path",{"d":"m12 19-7-7 7-7","key":"1l729n"}],["path",{"d":"M19 12H5","key":"x3x0zl"}]],"className":"lucide-arrow-left w-4 h-4 mr-2"}],"Back to Index"]}],["$","div",null,{"className":"flex gap-4 items-center mb-4 font-mono text-xs uppercase tracking-widest text-neutral-500","children":[["$","span",null,{"children":["Module: ","14 - Interview Problems Part 2"]}],["$","span",null,{"children":["Published: ","2026-06-12"]}]]}],["$","h1",null,{"className":"font-serif text-4xl md:text-6xl font-black uppercase tracking-tighter leading-none mb-4","children":"Designing a Vending Machine"}],["$","div",null,{"className":"flex gap-2 flex-wrap mt-4","children":[["$","span","lld",{"className":"border border-black px-2 py-1 text-[10px] font-mono uppercase tracking-wider","children":"lld"}],["$","span","vending-machine",{"className":"border border-black px-2 py-1 text-[10px] font-mono uppercase tracking-wider","children":"vending-machine"}],["$","span","state-pattern",{"className":"border border-black px-2 py-1 text-[10px] font-mono uppercase tracking-wider","children":"state-pattern"}]]}]]}],["$","div",null,{"className":"prose prose-lg prose-neutral max-w-none font-body","children":[["$","h2","h1-0",{"className":"font-serif text-3xl font-black mt-12 mb-6 uppercase","children":"📌 Designing a Vending Machine"}],"\n",["$","blockquote","blockquote-0",{"className":"border-l-4 border-black pl-6 py-2 my-8 italic text-neutral-700 bg-neutral-100/50","children":["\n",["$","p","p-0",{"className":"mb-6 leading-relaxed text-justify","children":["[!info] Navigation\n",["$","strong","strong-0",{"children":"Module:"}]," [[14 - Interview Problems Part 2/index|← Interview Problems Part 2 Overview]]\n",["$","strong","strong-1",{"children":"Next:"}]," [[14 - Interview Problems Part 2/atm-machine|Designing an ATM Machine →]]"]}],"\n"]}],"\n",["$","hr","hr-0",{}],"\n",["$","h3","h2-0",{"className":"font-serif text-2xl font-bold mt-10 mb-4","children":"🎯 Step 1: Clarify Requirements"}],"\n",["$","h4","h3-0",{"className":"font-serif text-xl font-bold mt-8 mb-4","children":"Functional Requirements"}],"\n",["$","ol","ol-0",{"className":"list-decimal list-outside ml-6 mb-6 space-y-2","children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"Products & Inventory:"}]," Machine holds multiple products (Beverage, Snack) with different prices and quantities."]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":"Payment:"}]," Accepts various notes/coins. Must return proper change if inserted amount > product price."]}],"\n",["$","li","li-2",{"children":[["$","strong","strong-0",{"children":"Dispensing:"}]," Dispense the product and return remaining change."]}],"\n",["$","li","li-3",{"children":[["$","strong","strong-0",{"children":"States:"}]," The machine has strict operational states: ",["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"IDLE"}],", ",["$","code","code-1",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"PROCESSING_PAYMENT"}],", ",["$","code","code-2",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"DISPENSING"}],", ",["$","code","code-3",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"OUT_OF_SERVICE"}],"."]}],"\n",["$","li","li-4",{"children":[["$","strong","strong-0",{"children":"Cancellation:"}]," User can cancel the payment before dispensing to get a full refund."]}],"\n"]}],"\n",["$","h4","h3-1",{"className":"font-serif text-xl font-bold mt-8 mb-4","children":"Non-Functional Requirements"}],"\n",["$","ol","ol-1",{"className":"list-decimal list-outside ml-6 mb-6 space-y-2","children":["\n","$L4","\n","$L5","\n"]}],"\n","$L6","\n","$L7","\n","$L8","\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf"]}]]}],["$L10"],"$L11"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"pABUS1kCPhVA1QaI2ni7b"}
+4:["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"Consistency:"}]," Must handle out-of-stock scenarios gracefully."]}]
+5:["$","li","li-1",{"children":[["$","strong","strong-0",{"children":"Safety:"}]," Cannot dispense products without full payment. State transitions must be strictly enforced."]}]
+6:["$","hr","hr-1",{}]
+7:["$","h3","h2-1",{"className":"font-serif text-2xl font-bold mt-10 mb-4","children":"🧱 Step 2: Identify Core Entities"}]
+8:["$","p","p-0",{"className":"mb-6 leading-relaxed text-justify","children":["$","span","img-0",{"className":"block border border-black p-2 my-8 hard-shadow-hover","children":["$","img",null,{"className":"w-full h-auto grayscale hover:sepia-[50%] transition-all duration-300","src":"../assets/class-diagrams/vendingmachine-class-diagram.png","alt":"Vending Machine Class Diagram"}]}]}]
+9:["$","ol","ol-2",{"className":"list-decimal list-outside ml-6 mb-6 space-y-2","children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":[["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"VendingMachine"}],":"]}]," Context holding the current state, inventory, and cash box."]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":[["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"Product"}],":"]}]," ID, Name, Price."]}],"\n",["$","li","li-2",{"children":[["$","strong","strong-0",{"children":[["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"Inventory"}],":"]}]," Manages the count of each Product."]}],"\n",["$","li","li-3",{"children":[["$","strong","strong-0",{"children":[["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"VendingMachineState"}]," (Interface):"]}]," Abstract state interface defining allowed operations."]}],"\n"]}]
+a:["$","hr","hr-2",{}]
+b:["$","h3","h2-2",{"className":"font-serif text-2xl font-bold mt-10 mb-4","children":"⚙️ Step 3: Architecture & Design Patterns"}]
+c:["$","ol","ol-3",{"className":"list-decimal list-outside ml-6 mb-6 space-y-2","children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"State Pattern:"}]," Absolutely critical. The State pattern prevents illogical operations (like trying to dispense a product while still waiting for payment)."]}],"\n"]}]
+d:["$","hr","hr-3",{}]
+e:["$","h3","h2-3",{"className":"font-serif text-2xl font-bold mt-10 mb-4","children":"💻 Step 4: Core Implementation (C++)"}]
+12:T13bb,#include <iostream>
+#include <string>
+#include <map>
+#include <memory>
+#include <stdexcept>
+
+using namespace std;
+
+// 1. Entities
+struct Product {
+    string name;
+    double price;
+};
+
+// Forward Declaration
+class VendingMachine;
+
+// 2. State Pattern Interface
+class VendingMachineState {
+public:
+    virtual void selectProduct(VendingMachine* machine, string productName) = 0;
+    virtual void insertMoney(VendingMachine* machine, double amount) = 0;
+    virtual void dispenseProduct(VendingMachine* machine) = 0;
+    virtual void cancelTransaction(VendingMachine* machine) = 0;
+    virtual string getName() = 0;
+    virtual ~VendingMachineState() = default;
+};
+
+// 3. Vending Machine Context
+class VendingMachine {
+public:
+    unique_ptr<VendingMachineState> state;
+    map<string, int> inventory;
+    map<string, double> prices;
+    
+    string selectedProduct;
+    double currentBalance = 0.0;
+
+    VendingMachine(); // Initialization provided below
+
+    void setState(unique_ptr<VendingMachineState> newState) {
+        state = move(newState);
+    }
+
+    void selectProduct(string name) { state->selectProduct(this, name); }
+    void insertMoney(double amount) { state->insertMoney(this, amount); }
+    void dispenseProduct() { state->dispenseProduct(this); }
+    void cancelTransaction() { state->cancelTransaction(this); }
+};
+
+// 4. Concrete States
+class IdleState : public VendingMachineState {
+public:
+    void selectProduct(VendingMachine* machine, string productName) override;
+    void insertMoney(VendingMachine* machine, double amount) override { throw runtime_error("Select a product first."); }
+    void dispenseProduct(VendingMachine* machine) override { throw runtime_error("No product selected."); }
+    void cancelTransaction(VendingMachine* machine) override { throw runtime_error("No transaction to cancel."); }
+    string getName() override { return "IDLE"; }
+};
+
+class PaymentState : public VendingMachineState {
+public:
+    void selectProduct(VendingMachine* machine, string productName) override { throw runtime_error("Already processing payment."); }
+    void insertMoney(VendingMachine* machine, double amount) override;
+    void dispenseProduct(VendingMachine* machine) override { throw runtime_error("Payment not complete."); }
+    void cancelTransaction(VendingMachine* machine) override;
+    string getName() override { return "PAYMENT"; }
+};
+
+class DispenseState : public VendingMachineState {
+public:
+    void selectProduct(VendingMachine* machine, string productName) override { throw runtime_error("Please wait, dispensing."); }
+    void insertMoney(VendingMachine* machine, double amount) override { throw runtime_error("Please wait, dispensing."); }
+    void dispenseProduct(VendingMachine* machine) override;
+    void cancelTransaction(VendingMachine* machine) override { throw runtime_error("Cannot cancel while dispensing."); }
+    string getName() override { return "DISPENSE"; }
+};
+
+// State Implementation Details
+void IdleState::selectProduct(VendingMachine* machine, string productName) {
+    if (machine->inventory[productName] <= 0) {
+        cout << "Out of stock!" << endl;
+        return;
+    }
+    machine->selectedProduct = productName;
+    machine->currentBalance = 0.0;
+    cout << "Selected " << productName << ". Price: $" << machine->prices[productName] << endl;
+    machine->setState(make_unique<PaymentState>());
+}
+
+void PaymentState::insertMoney(VendingMachine* machine, double amount) {
+    machine->currentBalance += amount;
+    double price = machine->prices[machine->selectedProduct];
+    cout << "Inserted: $" << amount << ". Total: $" << machine->currentBalance << endl;
+    
+    if (machine->currentBalance >= price) {
+        machine->setState(make_unique<DispenseState>());
+        machine->dispenseProduct(); // Auto-dispense when fully paid
+    } else {
+        cout << "Remaining: $" << (price - machine->currentBalance) << endl;
+    }
+}
+
+void PaymentState::cancelTransaction(VendingMachine* machine) {
+    cout << "Transaction cancelled. Refunding $" << machine->currentBalance << endl;
+    machine->currentBalance = 0;
+    machine->selectedProduct = "";
+    machine->setState(make_unique<IdleState>());
+}
+
+void DispenseState::dispenseProduct(VendingMachine* machine) {
+    double price = machine->prices[machine->selectedProduct];
+    double change = machine->currentBalance - price;
+    
+    machine->inventory[machine->selectedProduct]--;
+    cout << "Dispensing " << machine->selectedProduct << "!" << endl;
+    if (change > 0) cout << "Returning change: $" << change << endl;
+    
+    machine->currentBalance = 0;
+    machine->selectedProduct = "";
+    machine->setState(make_unique<IdleState>());
+}
+
+VendingMachine::VendingMachine() {
+    state = make_unique<IdleState>();
+    inventory["Coke"] = 5;
+    prices["Coke"] = 1.50;
+    inventory["Chips"] = 2;
+    prices["Chips"] = 1.00;
+}
+
+// Usage
+int main() {
+    VendingMachine vm;
+    vm.selectProduct("Coke");
+    vm.insertMoney(1.00);
+    vm.insertMoney(1.00); // Triggers dispense and returns change
+
+    return 0;
+}
+f:["$","div","pre-0,code-0",{"className":"border border-black my-6 bg-[#F9F9F7] overflow-hidden","children":[["$","div",null,{"className":"border-b border-black bg-black text-white px-4 py-1 text-xs font-mono uppercase tracking-widest flex justify-between","children":["$","span",null,{"children":"cpp"}]}],["$","pre",null,{"className":"p-4 overflow-x-auto text-sm font-mono","children":["$","code",null,{"className":"language-cpp","children":"$12"}]}]]}]
+10:["$","script","script-0",{"src":"/lld-notes-website/_next/static/chunks/2zxvdqlxbwu8a.js","async":true}]
+11:["$","$L13",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@15"}]}]
+15:null

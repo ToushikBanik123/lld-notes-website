@@ -1,0 +1,107 @@
+1:"$Sreact.fragment"
+2:I[93957,["/lld-notes-website/_next/static/chunks/1e780bj939qyz.js","/lld-notes-website/_next/static/chunks/3vhbe5bypqrna.js","/lld-notes-website/_next/static/chunks/2zxvdqlxbwu8a.js"],""]
+3:I[90382,["/lld-notes-website/_next/static/chunks/1e780bj939qyz.js","/lld-notes-website/_next/static/chunks/3vhbe5bypqrna.js","/lld-notes-website/_next/static/chunks/2zxvdqlxbwu8a.js"],"default"]
+18:I[3440,["/lld-notes-website/_next/static/chunks/1e780bj939qyz.js","/lld-notes-website/_next/static/chunks/3vhbe5bypqrna.js"],"OutletBoundary"]
+19:"$Sreact.suspense"
+:HL["../assets/class-diagrams/ridesharingservice-class-diagram.png","image"]
+0:{"rsc":["$","$1","c",{"children":[["$","article",null,{"className":"max-w-screen-md mx-auto px-4 py-8 md:py-16","children":[["$","div",null,{"className":"mb-12 border-b-4 border-black pb-8","children":[["$","$L2",null,{"href":"/","className":"inline-flex items-center text-xs font-mono uppercase tracking-widest font-bold mb-6 hover:text-[#CC0000] transition-colors","children":[["$","$L3",null,{"iconNode":[["path",{"d":"m12 19-7-7 7-7","key":"1l729n"}],["path",{"d":"M19 12H5","key":"x3x0zl"}]],"className":"lucide-arrow-left w-4 h-4 mr-2"}],"Back to Index"]}],["$","div",null,{"className":"flex gap-4 items-center mb-4 font-mono text-xs uppercase tracking-widest text-neutral-500","children":[["$","span",null,{"children":["Module: ","15 - Interview Problems Part 3"]}],["$","span",null,{"children":["Published: ","2026-06-12"]}]]}],["$","h1",null,{"className":"font-serif text-4xl md:text-6xl font-black uppercase tracking-tighter leading-none mb-4","children":"Designing a Ride Booking App"}],["$","div",null,{"className":"flex gap-2 flex-wrap mt-4","children":[["$","span","lld",{"className":"border border-black px-2 py-1 text-[10px] font-mono uppercase tracking-wider","children":"lld"}],["$","span","ride-booking",{"className":"border border-black px-2 py-1 text-[10px] font-mono uppercase tracking-wider","children":"ride-booking"}],["$","span","state-pattern",{"className":"border border-black px-2 py-1 text-[10px] font-mono uppercase tracking-wider","children":"state-pattern"}],["$","span","async",{"className":"border border-black px-2 py-1 text-[10px] font-mono uppercase tracking-wider","children":"async"}]]}]]}],["$","div",null,{"className":"prose prose-lg prose-neutral max-w-none font-body","children":[["$","h2","h1-0",{"className":"font-serif text-3xl font-black mt-12 mb-6 uppercase","children":"📌 Designing a Ride Booking App"}],"\n",["$","blockquote","blockquote-0",{"className":"border-l-4 border-black pl-6 py-2 my-8 italic text-neutral-700 bg-neutral-100/50","children":["\n",["$","p","p-0",{"className":"mb-6 leading-relaxed text-justify","children":["[!info] Navigation\n",["$","strong","strong-0",{"children":"Module:"}]," [[15 - Interview Problems Part 3/index|← Interview Problems Part 3 Overview]]\n",["$","strong","strong-1",{"children":"Prev:"}]," [[15 - Interview Problems Part 3/music-streaming|← Designing a Music Streaming Platform]]"]}],"\n"]}],"\n",["$","hr","hr-0",{}],"\n",["$","h3","h2-0",{"className":"font-serif text-2xl font-bold mt-10 mb-4","children":"🎯 Step 1: Clarify Requirements"}],"\n",["$","h4","h3-0",{"className":"font-serif text-xl font-bold mt-8 mb-4","children":"Functional Requirements"}],"\n",["$","ol","ol-0",{"className":"list-decimal list-outside ml-6 mb-6 space-y-2","children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"Rides:"}]," Rider requests a ride with Pickup/Dropoff locations."]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":"Matching:"}]," System asynchronously finds nearest online driver."]}],"\n",["$","li","li-2",{"children":[["$","strong","strong-0",{"children":"Driver Workflow:"}]," Driver accepts ride → Starts Ride → Completes Ride."]}],"\n",["$","li","li-3",{"children":[["$","strong","strong-0",{"children":"Payments:"}]," Rides can be ",["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"PRE_PAYMENT"}]," (matched after payment success) or ",["$","code","code-1",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"POST_PAYMENT"}]," (matched immediately)."]}],"\n"]}],"\n",["$","h4","h3-1",{"className":"font-serif text-xl font-bold mt-8 mb-4","children":"Non-Functional Requirements"}],"\n",["$","ol","ol-1",{"className":"list-decimal list-outside ml-6 mb-6 space-y-2","children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"Concurrency:"}]," Prevent a driver from being assigned two simultaneous rides."]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":"State Management:"}]," Strict transitions (","$L4"," → ","$L5"," → ","$L6"," → ","$L7"," → ","$L8",")."]}],"\n"]}],"\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14"]}]]}],["$L15"],"$L16"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"pABUS1kCPhVA1QaI2ni7b"}
+4:["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"REQUESTED"}]
+5:["$","code","code-1",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"ASSIGNED"}]
+6:["$","code","code-2",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"ACCEPTED"}]
+7:["$","code","code-3",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"IN_PROGRESS"}]
+8:["$","code","code-4",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"COMPLETED"}]
+9:["$","hr","hr-1",{}]
+a:["$","h3","h2-1",{"className":"font-serif text-2xl font-bold mt-10 mb-4","children":"🧱 Step 2: Identify Core Entities"}]
+b:["$","p","p-0",{"className":"mb-6 leading-relaxed text-justify","children":["$","span","img-0",{"className":"block border border-black p-2 my-8 hard-shadow-hover","children":["$","img",null,{"className":"w-full h-auto grayscale hover:sepia-[50%] transition-all duration-300","src":"../assets/class-diagrams/ridesharingservice-class-diagram.png","alt":"Ride Sharing Class Diagram"}]}]}]
+c:["$","ol","ol-2",{"className":"list-decimal list-outside ml-6 mb-6 space-y-2","children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":[["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"Ride"}],":"]}]," Tracks status, estimated fare, Rider ID, Driver ID (nullable until accepted)."]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":[["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"Driver"}],":"]}]," ",["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"ONLINE"}],", ",["$","code","code-1",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"OFFLINE"}],", ",["$","code","code-2",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"ON_RIDE"}],". Location coordinates."]}],"\n",["$","li","li-2",{"children":[["$","strong","strong-0",{"children":[["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"Rider"}],":"]}]," ID, Name, Contact."]}],"\n",["$","li","li-3",{"children":[["$","strong","strong-0",{"children":[["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"RideStateMachine"}],":"]}]," Central utility dictating allowed status transitions."]}],"\n"]}]
+d:["$","hr","hr-2",{}]
+e:["$","h3","h2-2",{"className":"font-serif text-2xl font-bold mt-10 mb-4","children":"⚙️ Step 3: Architecture & Design Patterns"}]
+f:["$","ol","ol-3",{"className":"list-decimal list-outside ml-6 mb-6 space-y-2","children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"Strategy Pattern:"}],"\n",["$","ul","ul-0",{"className":"list-disc list-outside ml-6 mb-6 space-y-2","children":["\n",["$","li","li-0",{"children":[["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"DriverMatchingStrategy"}],": Determines how to find drivers (",["$","code","code-1",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"NearestDriverStrategy"}],")."]}],"\n",["$","li","li-1",{"children":[["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"PricingStrategy"}],": Calculates fare based on distance and duration."]}],"\n"]}],"\n"]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":"Asynchronous Matching:"}]," Matching shouldn't block the HTTP request. A thread polls ",["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"ONLINE"}]," drivers, notifies one, waits for a timeout, and moves to the next if ignored."]}],"\n",["$","li","li-2",{"children":[["$","strong","strong-0",{"children":"Distributed Locks (Simulated):"}]," A driver lock (",["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"driver_lock_{id}"}],") prevents race conditions during assignment."]}],"\n"]}]
+10:["$","hr","hr-3",{}]
+11:["$","h3","h2-3",{"className":"font-serif text-2xl font-bold mt-10 mb-4","children":"💻 Step 4: Core Implementation (C++)"}]
+17:Ta4a,#include <iostream>
+#include <string>
+#include <vector>
+#include <stdexcept>
+
+using namespace std;
+
+enum class RideStatus { REQUESTED, ASSIGNED, ACCEPTED, IN_PROGRESS, COMPLETED, CANCELLED };
+enum class DriverStatus { ONLINE, OFFLINE, ON_RIDE };
+
+struct Ride {
+    string id;
+    string driverId;
+    RideStatus status = RideStatus::REQUESTED;
+};
+
+struct Driver {
+    string id;
+    DriverStatus status = DriverStatus::ONLINE;
+};
+
+// 1. State Machine
+class RideStateMachine {
+public:
+    static void transition(Ride& ride, RideStatus nextStatus) {
+        if (ride.status == RideStatus::REQUESTED && nextStatus == RideStatus::ASSIGNED) { ride.status = nextStatus; return; }
+        if (ride.status == RideStatus::ASSIGNED && nextStatus == RideStatus::ACCEPTED) { ride.status = nextStatus; return; }
+        if (ride.status == RideStatus::ACCEPTED && nextStatus == RideStatus::IN_PROGRESS) { ride.status = nextStatus; return; }
+        if (ride.status == RideStatus::IN_PROGRESS && nextStatus == RideStatus::COMPLETED) { ride.status = nextStatus; return; }
+        throw runtime_error("Invalid Ride Transition");
+    }
+};
+
+// 2. Ride Service
+class RideService {
+public:
+    void driverAccept(Ride& ride, Driver& driver) {
+        // In reality, acquire ride lock & driver lock here
+        if (ride.status != RideStatus::REQUESTED && ride.status != RideStatus::ASSIGNED) {
+            throw runtime_error("Ride is no longer available.");
+        }
+        if (driver.status != DriverStatus::ONLINE) {
+            throw runtime_error("Driver is not available.");
+        }
+
+        // Mutation
+        ride.driverId = driver.id;
+        RideStateMachine::transition(ride, RideStatus::ASSIGNED);
+        RideStateMachine::transition(ride, RideStatus::ACCEPTED);
+        driver.status = DriverStatus::ON_RIDE;
+
+        cout << "Driver " << driver.id << " accepted ride " << ride.id << endl;
+    }
+
+    void completeRide(Ride& ride, Driver& driver) {
+        RideStateMachine::transition(ride, RideStatus::COMPLETED);
+        driver.status = DriverStatus::ONLINE; // Free the driver
+        cout << "Ride " << ride.id << " completed. Driver " << driver.id << " is now ONLINE." << endl;
+    }
+};
+
+int main() {
+    Ride r1 = {"RIDE_123", "", RideStatus::REQUESTED};
+    Driver d1 = {"DRV_99", DriverStatus::ONLINE};
+
+    RideService svc;
+    
+    try {
+        svc.driverAccept(r1, d1);
+        
+        // Simulating the ride
+        RideStateMachine::transition(r1, RideStatus::IN_PROGRESS);
+        
+        svc.completeRide(r1, d1);
+    } catch(const exception& e) {
+        cout << "Error: " << e.what() << endl;
+    }
+
+    return 0;
+}
+12:["$","div","pre-0,code-0",{"className":"border border-black my-6 bg-[#F9F9F7] overflow-hidden","children":[["$","div",null,{"className":"border-b border-black bg-black text-white px-4 py-1 text-xs font-mono uppercase tracking-widest flex justify-between","children":["$","span",null,{"children":"cpp"}]}],["$","pre",null,{"className":"p-4 overflow-x-auto text-sm font-mono","children":["$","code",null,{"className":"language-cpp","children":"$17"}]}]]}]
+13:["$","h3","h2-4",{"className":"font-serif text-2xl font-bold mt-10 mb-4","children":"🚨 Edge Cases Handled"}]
+14:["$","ul","ul-0",{"className":"list-disc list-outside ml-6 mb-6 space-y-2","children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"Double Assignment:"}]," By placing an application-level mutex over the ",["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"Driver"}]," object, the system ensures two simultaneous rides cannot lock the same driver concurrently."]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":"Callback Wait States:"}]," Rides set to ",["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"PRE_PAYMENT"}]," sit in a ",["$","code","code-1",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"PENDING"}]," payment status. The async matcher ignores them until the ",["$","code","code-2",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"PaymentCallbackService"}]," moves them to ",["$","code","code-3",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"REQUESTED"}],"."]}],"\n"]}]
+15:["$","script","script-0",{"src":"/lld-notes-website/_next/static/chunks/2zxvdqlxbwu8a.js","async":true}]
+16:["$","$L18",null,{"children":["$","$19",null,{"name":"Next.MetadataOutlet","children":"$@1a"}]}]
+1a:null

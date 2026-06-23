@@ -1,0 +1,169 @@
+1:"$Sreact.fragment"
+2:I[73311,["/lld-notes-website/_next/static/chunks/1e780bj939qyz.js","/lld-notes-website/_next/static/chunks/3vhbe5bypqrna.js"],"default"]
+3:I[18999,["/lld-notes-website/_next/static/chunks/1e780bj939qyz.js","/lld-notes-website/_next/static/chunks/3vhbe5bypqrna.js"],"default"]
+5:I[3440,["/lld-notes-website/_next/static/chunks/1e780bj939qyz.js","/lld-notes-website/_next/static/chunks/3vhbe5bypqrna.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+9:I[3440,["/lld-notes-website/_next/static/chunks/1e780bj939qyz.js","/lld-notes-website/_next/static/chunks/3vhbe5bypqrna.js"],"ViewportBoundary"]
+b:I[3440,["/lld-notes-website/_next/static/chunks/1e780bj939qyz.js","/lld-notes-website/_next/static/chunks/3vhbe5bypqrna.js"],"MetadataBoundary"]
+d:I[72717,["/lld-notes-website/_next/static/chunks/1e780bj939qyz.js","/lld-notes-website/_next/static/chunks/3vhbe5bypqrna.js"],"default",1]
+:HL["/lld-notes-website/_next/static/chunks/2w1b4bfyajjof.css","style"]
+0:{"P":null,"c":["","13%20-%20Interview%20Problems%20Part%201","logging-framework"],"q":"","i":false,"f":[[["",{"children":[["slug","13%20-%20Interview%20Problems%20Part%201/logging-framework","c",null],{"children":["__PAGE__",{}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/lld-notes-website/_next/static/chunks/2w1b4bfyajjof.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/lld-notes-website/_next/static/chunks/1e780bj939qyz.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/lld-notes-website/_next/static/chunks/3vhbe5bypqrna.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"antialiased font-body min-h-screen flex flex-col","children":[["$","header",null,{"className":"border-b-4 border-black px-4 py-6 md:py-8 sticky top-0 bg-[#F9F9F7] z-40","children":["$","div",null,{"className":"max-w-screen-xl mx-auto flex flex-col items-center justify-center","children":[["$","h1",null,{"className":"font-serif text-5xl md:text-6xl lg:text-7xl font-black tracking-tighter uppercase text-center mb-2 leading-[0.9]","children":"LLD Notes"}],["$","div",null,{"className":"flex justify-between items-center w-full max-w-3xl border-t border-b border-black py-2 mt-4 font-mono text-xs uppercase tracking-widest","children":[["$","span",null,{"children":"Vol. 1"}],["$","span",null,{"children":"Tuesday, June 23, 2026"}],["$","span",null,{"children":"By Toushik"}]]}]]}]}],["$","main",null,{"className":"flex-grow","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"border-t-4 border-black mt-16 py-12 px-4 bg-[#F9F9F7]","children":["$","div",null,{"className":"max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-8","children":[["$","div",null,{"className":"md:col-span-8","children":[["$","h2",null,{"className":"font-serif text-3xl font-black uppercase mb-4","children":"LLD Notes by Toushik"}],["$","p",null,{"className":"font-body text-neutral-600 max-w-md","children":"A comprehensive collection of Low-Level Design concepts, patterns, and interview problems."}]]}],["$","div",null,{"className":"md:col-span-4 font-mono text-xs uppercase tracking-widest flex flex-col justify-end items-start md:items-end","children":[["$","span",null,{"className":"mb-2","children":"Edition: Vol 1.0"}],["$","span",null,{"children":"Printed in NYC"}]]}]]}]}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L4",[["$","script","script-0",{"src":"/lld-notes-website/_next/static/chunks/2zxvdqlxbwu8a.js","async":true,"nonce":"$undefined"}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],{},null,false,null]},null,false,"$@8"]},null,false,null],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$6",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],null]}],false]],"m":"$undefined","G":["$d",[["$","link","0",{"rel":"stylesheet","href":"/lld-notes-website/_next/static/chunks/2w1b4bfyajjof.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"pABUS1kCPhVA1QaI2ni7b"}
+e:[]
+8:"$We"
+f:I[93957,["/lld-notes-website/_next/static/chunks/1e780bj939qyz.js","/lld-notes-website/_next/static/chunks/3vhbe5bypqrna.js","/lld-notes-website/_next/static/chunks/2zxvdqlxbwu8a.js"],""]
+10:I[90382,["/lld-notes-website/_next/static/chunks/1e780bj939qyz.js","/lld-notes-website/_next/static/chunks/3vhbe5bypqrna.js","/lld-notes-website/_next/static/chunks/2zxvdqlxbwu8a.js"],"default"]
+4:["$","article",null,{"className":"max-w-screen-md mx-auto px-4 py-8 md:py-16","children":[["$","div",null,{"className":"mb-12 border-b-4 border-black pb-8","children":[["$","$Lf",null,{"href":"/","className":"inline-flex items-center text-xs font-mono uppercase tracking-widest font-bold mb-6 hover:text-[#CC0000] transition-colors","children":[["$","$L10",null,{"ref":"$undefined","iconNode":[["path",{"d":"m12 19-7-7 7-7","key":"1l729n"}],["path",{"d":"M19 12H5","key":"x3x0zl"}]],"className":"lucide-arrow-left w-4 h-4 mr-2"}],"Back to Index"]}],["$","div",null,{"className":"flex gap-4 items-center mb-4 font-mono text-xs uppercase tracking-widest text-neutral-500","children":[["$","span",null,{"children":["Module: ","13 - Interview Problems Part 1"]}],["$","span",null,{"children":["Published: ","2026-06-12"]}]]}],["$","h1",null,{"className":"font-serif text-4xl md:text-6xl font-black uppercase tracking-tighter leading-none mb-4","children":"Designing a Logging Framework"}],["$","div",null,{"className":"flex gap-2 flex-wrap mt-4","children":[["$","span","lld",{"className":"border border-black px-2 py-1 text-[10px] font-mono uppercase tracking-wider","children":"lld"}],["$","span","logging",{"className":"border border-black px-2 py-1 text-[10px] font-mono uppercase tracking-wider","children":"logging"}],["$","span","interview-problem",{"className":"border border-black px-2 py-1 text-[10px] font-mono uppercase tracking-wider","children":"interview-problem"}],["$","span","strategy-pattern",{"className":"border border-black px-2 py-1 text-[10px] font-mono uppercase tracking-wider","children":"strategy-pattern"}],["$","span","chain-of-responsibility",{"className":"border border-black px-2 py-1 text-[10px] font-mono uppercase tracking-wider","children":"chain-of-responsibility"}]]}]]}],["$","div",null,{"className":"prose prose-lg prose-neutral max-w-none font-body","children":[["$","h2","h1-0",{"className":"font-serif text-3xl font-black mt-12 mb-6 uppercase","children":"📌 Designing a Logging Framework"}],"\n",["$","blockquote","blockquote-0",{"className":"border-l-4 border-black pl-6 py-2 my-8 italic text-neutral-700 bg-neutral-100/50","children":["\n",["$","p","p-0",{"className":"mb-6 leading-relaxed text-justify","children":["[!info] Navigation\n",["$","strong","strong-0",{"children":"Module:"}]," [[13 - Interview Problems Part 1/index|← Interview Problems Part 1 Overview]]\n",["$","strong","strong-1",{"children":"Next:"}]," [[13 - Interview Problems Part 1/parking-lot|Designing a Parking Lot System →]]"]}],"\n"]}],"\n",["$","hr","hr-0",{}],"\n",["$","h3","h2-0",{"className":"font-serif text-2xl font-bold mt-10 mb-4","children":"🎯 Step 1: Clarify Requirements"}],"\n",["$","h4","h3-0",{"className":"font-serif text-xl font-bold mt-8 mb-4","children":"Functional Requirements"}],"\n",["$","ol","ol-0",{"className":"list-decimal list-outside ml-6 mb-6 space-y-2","children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"Log Levels:"}]," Support ",["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"DEBUG"}],", ",["$","code","code-1",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"INFO"}],", ",["$","code","code-2",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"WARNING"}],", ",["$","code","code-3",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"ERROR"}],", ",["$","code","code-4",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"FATAL"}],". Priority-based filtering (e.g., if set to WARNING, only log WARNING, ERROR, FATAL)."]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":"Message Structure:"}]," Must include timestamp, level, message text, and optional source (class/method)."]}],"\n",["$","li","li-2",{"children":[["$","strong","strong-0",{"children":"Multiple Outputs (Appenders):"}]," Console, File, Database. A single message can go to multiple destinations."]}],"\n","$L11","\n"]}],"\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f"]}]]}]
+11:["$","li","li-3",{"children":[["$","strong","strong-0",{"children":"Configuration:"}]," Ability to set log level and configure appenders at runtime."]}]
+12:["$","h4","h3-1",{"className":"font-serif text-xl font-bold mt-8 mb-4","children":"Non-Functional Requirements"}]
+13:["$","ol","ol-1",{"className":"list-decimal list-outside ml-6 mb-6 space-y-2","children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"Thread Safety:"}]," Multiple threads should be able to log simultaneously without race conditions or data corruption."]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":"Extensibility:"}]," Easy to add new appenders (e.g., Email, Network) or new formatters."]}],"\n"]}]
+14:["$","hr","hr-1",{}]
+15:["$","h3","h2-1",{"className":"font-serif text-2xl font-bold mt-10 mb-4","children":"🧱 Step 2: Identify Core Entities"}]
+16:["$","ol","ol-2",{"className":"list-decimal list-outside ml-6 mb-6 space-y-2","children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":[["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"LogLevel"}]," (Enum):"]}]," Defines severity and priority."]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":[["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"LogMessage"}],":"]}]," Immutable object containing timestamp, level, message, and source."]}],"\n",["$","li","li-2",{"children":[["$","strong","strong-0",{"children":[["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"Logger"}]," (Singleton/Core Interface):"]}]," The main entry point for the application to push logs."]}],"\n",["$","li","li-3",{"children":[["$","strong","strong-0",{"children":[["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"LogAppender"}]," (Interface):"]}]," Defines the destination strategy."]}],"\n",["$","li","li-4",{"children":[["$","strong","strong-0",{"children":[["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"LogFormatter"}]," (Interface):"]}]," Defines how the ",["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"LogMessage"}]," is serialized to a String."]}],"\n"]}]
+17:["$","hr","hr-2",{}]
+18:["$","h3","h2-2",{"className":"font-serif text-2xl font-bold mt-10 mb-4","children":"⚙️ Step 3: Architecture & Design Patterns"}]
+19:["$","p","p-0",{"className":"mb-6 leading-relaxed text-justify","children":"We will heavily rely on standard design patterns:"}]
+1a:["$","ol","ol-3",{"className":"list-decimal list-outside ml-6 mb-6 space-y-2","children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"Strategy Pattern:"}]," For formatting (",["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"SimpleFormatter"}],", ",["$","code","code-1",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"DetailedFormatter"}],") and Appending (",["$","code","code-2",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"ConsoleAppender"}],", ",["$","code","code-3",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"FileAppender"}],")."]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":"Chain of Responsibility Pattern:"}]," (Optional) If implementing complex filtering."]}],"\n",["$","li","li-2",{"children":[["$","strong","strong-0",{"children":"Builder Pattern:"}]," For constructing complex ",["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"LogMessage"}]," objects cleanly."]}],"\n",["$","li","li-3",{"children":[["$","strong","strong-0",{"children":"Singleton Pattern:"}]," For the central ",["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"LoggerImpl"}]," to ensure one global configuration."]}],"\n"]}]
+1b:["$","hr","hr-3",{}]
+1c:["$","h3","h2-3",{"className":"font-serif text-2xl font-bold mt-10 mb-4","children":"💻 Step 4: Core Implementation (C++)"}]
+20:Tc84,#include <iostream>
+#include <string>
+#include <vector>
+#include <memory>
+#include <mutex>
+#include <chrono>
+#include <ctime>
+
+using namespace std;
+
+// 1. Log Levels
+enum class LogLevel {
+    DEBUG = 1,
+    INFO = 2,
+    WARNING = 3,
+    ERROR = 4,
+    FATAL = 5
+};
+
+// 2. Log Message Object
+class LogMessage {
+public:
+    LogLevel level;
+    string message;
+    string timestamp;
+
+    LogMessage(LogLevel lvl, const string& msg) : level(lvl), message(msg) {
+        auto now = chrono::system_clock::now();
+        time_t time = chrono::system_clock::to_time_t(now);
+        string t = ctime(&time);
+        t.pop_back(); // Remove newline
+        timestamp = t;
+    }
+};
+
+// 3. Formatters (Strategy)
+class LogFormatter {
+public:
+    virtual string format(const LogMessage& msg) = 0;
+    virtual ~LogFormatter() = default;
+};
+
+class SimpleFormatter : public LogFormatter {
+public:
+    string format(const LogMessage& msg) override {
+        return "[" + msg.timestamp + "] - " + msg.message;
+    }
+};
+
+// 4. Appenders (Strategy)
+class LogAppender {
+protected:
+    shared_ptr<LogFormatter> formatter;
+public:
+    LogAppender(shared_ptr<LogFormatter> fmt) : formatter(fmt) {}
+    virtual void append(const LogMessage& msg) = 0;
+    virtual ~LogAppender() = default;
+};
+
+class ConsoleAppender : public LogAppender {
+public:
+    ConsoleAppender(shared_ptr<LogFormatter> fmt) : LogAppender(fmt) {}
+    void append(const LogMessage& msg) override {
+        cout << formatter->format(msg) << endl;
+    }
+};
+
+// 5. The Logger (Singleton)
+class Logger {
+private:
+    static shared_ptr<Logger> instance;
+    static mutex mtx;
+
+    LogLevel rootLevel;
+    vector<shared_ptr<LogAppender>> appenders;
+
+    Logger() {
+        rootLevel = LogLevel::INFO; // Default
+    }
+
+public:
+    static shared_ptr<Logger> getInstance() {
+        if (!instance) {
+            lock_guard<mutex> lock(mtx);
+            if (!instance) {
+                instance = shared_ptr<Logger>(new Logger());
+            }
+        }
+        return instance;
+    }
+
+    void setLevel(LogLevel level) {
+        rootLevel = level;
+    }
+
+    void addAppender(shared_ptr<LogAppender> appender) {
+        appenders.push_back(appender);
+    }
+
+    void log(LogLevel level, const string& message) {
+        if (level >= rootLevel) {
+            LogMessage msg(level, message);
+            lock_guard<mutex> lock(mtx); // Ensure thread-safe publishing
+            for (auto& appender : appenders) {
+                appender->append(msg);
+            }
+        }
+    }
+
+    // Helper methods
+    void info(const string& msg) { log(LogLevel::INFO, msg); }
+    void error(const string& msg) { log(LogLevel::ERROR, msg); }
+};
+
+// Initialize statics
+shared_ptr<Logger> Logger::instance = nullptr;
+mutex Logger::mtx;
+
+// Usage
+int main() {
+    auto logger = Logger::getInstance();
+    
+    // Configure
+    auto formatter = make_shared<SimpleFormatter>();
+    auto consoleAppender = make_shared<ConsoleAppender>(formatter);
+    logger->addAppender(consoleAppender);
+
+    logger->setLevel(LogLevel::INFO);
+
+    logger->info("Application started");
+    logger->debug("This will not be logged");
+    logger->error("Database connection failed");
+
+    return 0;
+}
+1d:["$","div","pre-0,code-0",{"className":"border border-black my-6 bg-[#F9F9F7] overflow-hidden","children":[["$","div",null,{"className":"border-b border-black bg-black text-white px-4 py-1 text-xs font-mono uppercase tracking-widest flex justify-between","children":["$","span",null,{"children":"cpp"}]}],["$","pre",null,{"className":"p-4 overflow-x-auto text-sm font-mono","children":["$","code",null,{"className":"language-cpp","children":"$20"}]}]]}]
+1e:["$","h3","h2-4",{"className":"font-serif text-2xl font-bold mt-10 mb-4","children":"🚨 Edge Cases Handled"}]
+1f:["$","ul","ul-0",{"className":"list-disc list-outside ml-6 mb-6 space-y-2","children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"Concurrency:"}]," ",["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"std::mutex"}]," wraps the core ",["$","code","code-1",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"log"}]," method ensuring that multiple threads do not cause race conditions when appending. Double-checked locking used for Singleton initialization."]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":"Configurability:"}]," Appenders and formatters can be added dynamically."]}],"\n"]}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+21:I[77310,["/lld-notes-website/_next/static/chunks/1e780bj939qyz.js","/lld-notes-website/_next/static/chunks/3vhbe5bypqrna.js"],"IconMark"]
+7:null
+c:[["$","title","0",{"children":"LLD Notes by Toushik"}],["$","meta","1",{"name":"description","content":"All the News That's Fit to Print - Low-Level Design Edition"}],["$","link","2",{"rel":"icon","href":"/lld-notes-website/favicon.ico?favicon.2vob68tjqpejf.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L21","3",{}]]

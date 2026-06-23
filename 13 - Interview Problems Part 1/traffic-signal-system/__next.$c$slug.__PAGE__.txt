@@ -1,0 +1,167 @@
+1:"$Sreact.fragment"
+2:I[93957,["/lld-notes-website/_next/static/chunks/1e780bj939qyz.js","/lld-notes-website/_next/static/chunks/3vhbe5bypqrna.js","/lld-notes-website/_next/static/chunks/2zxvdqlxbwu8a.js"],""]
+3:I[90382,["/lld-notes-website/_next/static/chunks/1e780bj939qyz.js","/lld-notes-website/_next/static/chunks/3vhbe5bypqrna.js","/lld-notes-website/_next/static/chunks/2zxvdqlxbwu8a.js"],"default"]
+17:I[3440,["/lld-notes-website/_next/static/chunks/1e780bj939qyz.js","/lld-notes-website/_next/static/chunks/3vhbe5bypqrna.js"],"OutletBoundary"]
+18:"$Sreact.suspense"
+:HL["../assets/class-diagrams/trafficcontrolsystem-class-diagram.png","image"]
+0:{"rsc":["$","$1","c",{"children":[["$","article",null,{"className":"max-w-screen-md mx-auto px-4 py-8 md:py-16","children":[["$","div",null,{"className":"mb-12 border-b-4 border-black pb-8","children":[["$","$L2",null,{"href":"/","className":"inline-flex items-center text-xs font-mono uppercase tracking-widest font-bold mb-6 hover:text-[#CC0000] transition-colors","children":[["$","$L3",null,{"iconNode":[["path",{"d":"m12 19-7-7 7-7","key":"1l729n"}],["path",{"d":"M19 12H5","key":"x3x0zl"}]],"className":"lucide-arrow-left w-4 h-4 mr-2"}],"Back to Index"]}],["$","div",null,{"className":"flex gap-4 items-center mb-4 font-mono text-xs uppercase tracking-widest text-neutral-500","children":[["$","span",null,{"children":["Module: ","13 - Interview Problems Part 1"]}],["$","span",null,{"children":["Published: ","2026-06-12"]}]]}],["$","h1",null,{"className":"font-serif text-4xl md:text-6xl font-black uppercase tracking-tighter leading-none mb-4","children":"Designing a Traffic Signal System"}],["$","div",null,{"className":"flex gap-2 flex-wrap mt-4","children":[["$","span","lld",{"className":"border border-black px-2 py-1 text-[10px] font-mono uppercase tracking-wider","children":"lld"}],["$","span","traffic-signal",{"className":"border border-black px-2 py-1 text-[10px] font-mono uppercase tracking-wider","children":"traffic-signal"}],["$","span","state-pattern",{"className":"border border-black px-2 py-1 text-[10px] font-mono uppercase tracking-wider","children":"state-pattern"}],["$","span","scheduling",{"className":"border border-black px-2 py-1 text-[10px] font-mono uppercase tracking-wider","children":"scheduling"}]]}]]}],["$","div",null,{"className":"prose prose-lg prose-neutral max-w-none font-body","children":[["$","h2","h1-0",{"className":"font-serif text-3xl font-black mt-12 mb-6 uppercase","children":"📌 Designing a Traffic Signal System"}],"\n",["$","blockquote","blockquote-0",{"className":"border-l-4 border-black pl-6 py-2 my-8 italic text-neutral-700 bg-neutral-100/50","children":["\n",["$","p","p-0",{"className":"mb-6 leading-relaxed text-justify","children":["[!info] Navigation\n",["$","strong","strong-0",{"children":"Module:"}]," [[13 - Interview Problems Part 1/index|← Interview Problems Part 1 Overview]]\n",["$","strong","strong-1",{"children":"Prev:"}]," [[13 - Interview Problems Part 1/task-management-system|← Designing a Task Management System]]\n",["$","strong","strong-2",{"children":"Next:"}]," [[14 - Interview Problems Part 2/index|Interview Problems Part 2 →]]"]}],"\n"]}],"\n",["$","hr","hr-0",{}],"\n",["$","h3","h2-0",{"className":"font-serif text-2xl font-bold mt-10 mb-4","children":"🎯 Step 1: Clarify Requirements"}],"\n",["$","h4","h3-0",{"className":"font-serif text-xl font-bold mt-8 mb-4","children":"Functional Requirements"}],"\n",["$","ol","ol-0",{"className":"list-decimal list-outside ml-6 mb-6 space-y-2","children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"Intersection Control:"}]," Control 4 traffic lights (NORTH, EAST, SOUTH, WEST)."]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":"Automatic Cycling:"}]," Cycle through the phases continuously."]}],"\n",["$","li","li-2",{"children":[["$","strong","strong-0",{"children":"State Validation:"}]," Must explicitly follow ",["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"RED"}]," → ",["$","code","code-1",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"GREEN"}]," → ",["$","code","code-2",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"YELLOW"}]," → ",["$","code","code-3",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"RED"}],". ",["$","code","code-4",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"GREEN"}]," to ",["$","code","code-5",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"RED"}]," is forbidden."]}],"\n",["$","li","li-3",{"children":["$L4"," If an ambulance approaches from the NORTH, pause the cycle, turn EAST/SOUTH/WEST to RED, and NORTH to GREEN. Resume exactly where it paused after the emergency."]}],"\n","$L5","\n"]}],"\n","$L6","\n","$L7","\n","$L8","\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13"]}]]}],["$L14"],"$L15"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"pABUS1kCPhVA1QaI2ni7b"}
+4:["$","strong","strong-0",{"children":"Emergency Handling:"}]
+5:["$","li","li-4",{"children":[["$","strong","strong-0",{"children":"Dynamic Timing:"}]," Adjust green light duration based on vehicle density."]}]
+6:["$","h4","h3-1",{"className":"font-serif text-xl font-bold mt-8 mb-4","children":"Non-Functional Requirements"}]
+7:["$","ol","ol-1",{"className":"list-decimal list-outside ml-6 mb-6 space-y-2","children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"Safety:"}]," Conflicting signals (e.g., North and East both Green) MUST NEVER occur."]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":"Concurrency:"}]," Intersection controller must handle emergency interrupts cleanly without breaking the state."]}],"\n"]}]
+8:["$","hr","hr-1",{}]
+9:["$","h3","h2-1",{"className":"font-serif text-2xl font-bold mt-10 mb-4","children":"🧱 Step 2: Identify Core Entities"}]
+a:["$","p","p-0",{"className":"mb-6 leading-relaxed text-justify","children":["$","span","img-0",{"className":"block border border-black p-2 my-8 hard-shadow-hover","children":["$","img",null,{"className":"w-full h-auto grayscale hover:sepia-[50%] transition-all duration-300","src":"../assets/class-diagrams/trafficcontrolsystem-class-diagram.png","alt":"Traffic Signal System Class Diagram"}]}]}]
+b:["$","ol","ol-2",{"className":"list-decimal list-outside ml-6 mb-6 space-y-2","children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":[["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"Intersection"}],":"]}]," Represents the 4-way cross, holds references to the 4 ",["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"TrafficLight"}]," objects."]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":[["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"TrafficLight"}],":"]}]," Has a ",["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"Direction"}]," and a ",["$","code","code-1",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"CurrentState"}],"."]}],"\n",["$","li","li-2",{"children":[["$","strong","strong-0",{"children":[["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"TrafficLightState"}]," (Interface):"]}]," Abstract state for RED, YELLOW, GREEN."]}],"\n",["$","li","li-3",{"children":[["$","strong","strong-0",{"children":[["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"EmergencyRequest"}],":"]}]," Contains the target direction and duration."]}],"\n"]}]
+c:["$","hr","hr-2",{}]
+d:["$","h3","h2-2",{"className":"font-serif text-2xl font-bold mt-10 mb-4","children":"⚙️ Step 3: Architecture & Design Patterns"}]
+e:["$","ol","ol-3",{"className":"list-decimal list-outside ml-6 mb-6 space-y-2","children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"State Pattern:"}]," Crucial for safety. Encapsulates the rules of transitioning. A light in ",["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"GreenState"}]," only allows ",["$","code","code-1",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"turnYellow()"}],". Calling ",["$","code","code-2",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"turnRed()"}]," on a ",["$","code","code-3",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"GreenState"}]," throws an exception."]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":"Mediator / Orchestrator Pattern:"}]," The ",["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"Intersection"}]," acts as a mediator, ensuring that if North turns Green, the others are explicitly verified to be Red."]}],"\n"]}]
+f:["$","hr","hr-3",{}]
+10:["$","h3","h2-3",{"className":"font-serif text-2xl font-bold mt-10 mb-4","children":"💻 Step 4: Core Implementation (C++)"}]
+16:T11ce,#include <iostream>
+#include <string>
+#include <vector>
+#include <memory>
+#include <map>
+#include <stdexcept>
+
+using namespace std;
+
+// 1. Enums
+enum class Direction { NORTH, EAST, SOUTH, WEST };
+
+// Forward Declaration
+class TrafficLight;
+
+// 2. State Pattern
+class TrafficLightState {
+public:
+    virtual void turnGreen(TrafficLight* light) = 0;
+    virtual void turnYellow(TrafficLight* light) = 0;
+    virtual void turnRed(TrafficLight* light) = 0;
+    virtual string getName() const = 0;
+    virtual ~TrafficLightState() = default;
+};
+
+// Traffic Light Context
+class TrafficLight {
+public:
+    Direction dir;
+    unique_ptr<TrafficLightState> state;
+
+    TrafficLight(Direction d, unique_ptr<TrafficLightState> initialState) 
+        : dir(d), state(move(initialState)) {}
+
+    void setState(unique_ptr<TrafficLightState> newState) {
+        state = move(newState);
+    }
+
+    void turnGreen() { state->turnGreen(this); }
+    void turnYellow() { state->turnYellow(this); }
+    void turnRed() { state->turnRed(this); }
+};
+
+// Concrete States
+class RedState : public TrafficLightState {
+public:
+    void turnGreen(TrafficLight* light) override;
+    void turnYellow(TrafficLight* light) override { throw runtime_error("Invalid Transition: RED to YELLOW"); }
+    void turnRed(TrafficLight* light) override { /* Already Red */ }
+    string getName() const override { return "RED"; }
+};
+
+class GreenState : public TrafficLightState {
+public:
+    void turnGreen(TrafficLight* light) override { /* Already Green */ }
+    void turnYellow(TrafficLight* light) override;
+    void turnRed(TrafficLight* light) override { throw runtime_error("Invalid Transition: GREEN to RED. Must pass through YELLOW."); }
+    string getName() const override { return "GREEN"; }
+};
+
+class YellowState : public TrafficLightState {
+public:
+    void turnGreen(TrafficLight* light) override { throw runtime_error("Invalid Transition: YELLOW to GREEN"); }
+    void turnYellow(TrafficLight* light) override { /* Already Yellow */ }
+    void turnRed(TrafficLight* light) override;
+    string getName() const override { return "YELLOW"; }
+};
+
+// Implement Transitions
+void RedState::turnGreen(TrafficLight* light) {
+    cout << "Turning Green" << endl;
+    light->setState(make_unique<GreenState>());
+}
+void GreenState::turnYellow(TrafficLight* light) {
+    cout << "Turning Yellow" << endl;
+    light->setState(make_unique<YellowState>());
+}
+void YellowState::turnRed(TrafficLight* light) {
+    cout << "Turning Red" << endl;
+    light->setState(make_unique<RedState>());
+}
+
+// 3. The Orchestrator
+class Intersection {
+private:
+    map<Direction, unique_ptr<TrafficLight>> lights;
+    vector<Direction> cycleOrder = {Direction::NORTH, Direction::EAST, Direction::SOUTH, Direction::WEST};
+    int currentPhaseIndex = 0;
+    bool isEmergency = false;
+
+public:
+    Intersection() {
+        lights[Direction::NORTH] = make_unique<TrafficLight>(Direction::NORTH, make_unique<RedState>());
+        lights[Direction::EAST] = make_unique<TrafficLight>(Direction::EAST, make_unique<RedState>());
+        lights[Direction::SOUTH] = make_unique<TrafficLight>(Direction::SOUTH, make_unique<RedState>());
+        lights[Direction::WEST] = make_unique<TrafficLight>(Direction::WEST, make_unique<RedState>());
+    }
+
+    void handleEmergency(Direction emergencyDir) {
+        cout << "\n🚨 EMERGENCY DETECTED AT DIRECTION " << (int)emergencyDir << " 🚨" << endl;
+        isEmergency = true;
+        
+        // Safely transition all to RED
+        for (auto& pair : lights) {
+            auto& light = pair.second;
+            if (light->state->getName() == "GREEN") light->turnYellow();
+            if (light->state->getName() == "YELLOW") light->turnRed();
+        }
+
+        // Give green to emergency
+        lights[emergencyDir]->turnGreen();
+    }
+
+    void cycleNext() {
+        if (isEmergency) return;
+
+        Direction currentDir = cycleOrder[currentPhaseIndex];
+        Direction nextDir = cycleOrder[(currentPhaseIndex + 1) % 4];
+
+        // Safely end current
+        lights[currentDir]->turnYellow();
+        lights[currentDir]->turnRed();
+
+        // Safely start next
+        lights[nextDir]->turnGreen();
+
+        currentPhaseIndex = (currentPhaseIndex + 1) % 4;
+    }
+};
+
+// Usage
+int main() {
+    Intersection intersection;
+
+    intersection.lights[Direction::NORTH]->turnGreen(); // Start cycle manually for demo
+    intersection.cycleNext(); // Turns North to Yellow->Red, East to Green
+
+    intersection.handleEmergency(Direction::SOUTH); // Interrupts cycle
+
+    return 0;
+}
+11:["$","div","pre-0,code-0",{"className":"border border-black my-6 bg-[#F9F9F7] overflow-hidden","children":[["$","div",null,{"className":"border-b border-black bg-black text-white px-4 py-1 text-xs font-mono uppercase tracking-widest flex justify-between","children":["$","span",null,{"children":"cpp"}]}],["$","pre",null,{"className":"p-4 overflow-x-auto text-sm font-mono","children":["$","code",null,{"className":"language-cpp","children":"$16"}]}]]}]
+12:["$","h3","h2-4",{"className":"font-serif text-2xl font-bold mt-10 mb-4","children":"🚨 Edge Cases Handled"}]
+13:["$","ul","ul-0",{"className":"list-disc list-outside ml-6 mb-6 space-y-2","children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"Invalid State Transitions:"}]," Prevented at compile/runtime by the State Pattern. Trying to turn a Green light Red immediately throws a ",["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"runtime_error"}],", avoiding potentially fatal real-world crashes."]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":"Emergency interrupts:"}]," Handled cleanly by sweeping the current states and stepping them down safely to Red before granting the emergency vehicle Green."]}],"\n"]}]
+14:["$","script","script-0",{"src":"/lld-notes-website/_next/static/chunks/2zxvdqlxbwu8a.js","async":true}]
+15:["$","$L17",null,{"children":["$","$18",null,{"name":"Next.MetadataOutlet","children":"$@19"}]}]
+19:null

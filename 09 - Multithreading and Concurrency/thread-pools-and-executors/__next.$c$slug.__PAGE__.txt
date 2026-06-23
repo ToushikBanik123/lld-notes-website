@@ -1,0 +1,83 @@
+1:"$Sreact.fragment"
+2:I[93957,["/lld-notes-website/_next/static/chunks/1e780bj939qyz.js","/lld-notes-website/_next/static/chunks/3vhbe5bypqrna.js","/lld-notes-website/_next/static/chunks/2zxvdqlxbwu8a.js"],""]
+3:I[90382,["/lld-notes-website/_next/static/chunks/1e780bj939qyz.js","/lld-notes-website/_next/static/chunks/3vhbe5bypqrna.js","/lld-notes-website/_next/static/chunks/2zxvdqlxbwu8a.js"],"default"]
+14:I[3440,["/lld-notes-website/_next/static/chunks/1e780bj939qyz.js","/lld-notes-website/_next/static/chunks/3vhbe5bypqrna.js"],"OutletBoundary"]
+15:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","article",null,{"className":"max-w-screen-md mx-auto px-4 py-8 md:py-16","children":[["$","div",null,{"className":"mb-12 border-b-4 border-black pb-8","children":[["$","$L2",null,{"href":"/","className":"inline-flex items-center text-xs font-mono uppercase tracking-widest font-bold mb-6 hover:text-[#CC0000] transition-colors","children":[["$","$L3",null,{"iconNode":[["path",{"d":"m12 19-7-7 7-7","key":"1l729n"}],["path",{"d":"M19 12H5","key":"x3x0zl"}]],"className":"lucide-arrow-left w-4 h-4 mr-2"}],"Back to Index"]}],["$","div",null,{"className":"flex gap-4 items-center mb-4 font-mono text-xs uppercase tracking-widest text-neutral-500","children":[["$","span",null,{"children":["Module: ","09 - Multithreading and Concurrency"]}],["$","span",null,{"children":["Published: ","2026-06-12"]}]]}],["$","h1",null,{"className":"font-serif text-4xl md:text-6xl font-black uppercase tracking-tighter leading-none mb-4","children":"Thread Pools and Executors"}],["$","div",null,{"className":"flex gap-2 flex-wrap mt-4","children":[["$","span","lld",{"className":"border border-black px-2 py-1 text-[10px] font-mono uppercase tracking-wider","children":"lld"}],["$","span","multithreading",{"className":"border border-black px-2 py-1 text-[10px] font-mono uppercase tracking-wider","children":"multithreading"}],["$","span","concurrency",{"className":"border border-black px-2 py-1 text-[10px] font-mono uppercase tracking-wider","children":"concurrency"}],["$","span","thread-pool",{"className":"border border-black px-2 py-1 text-[10px] font-mono uppercase tracking-wider","children":"thread-pool"}]]}]]}],["$","div",null,{"className":"prose prose-lg prose-neutral max-w-none font-body","children":[["$","h2","h1-0",{"className":"font-serif text-3xl font-black mt-12 mb-6 uppercase","children":"📌 Thread Pools and Executors"}],"\n",["$","blockquote","blockquote-0",{"className":"border-l-4 border-black pl-6 py-2 my-8 italic text-neutral-700 bg-neutral-100/50","children":["\n",["$","p","p-0",{"className":"mb-6 leading-relaxed text-justify","children":["[!info] Navigation\n",["$","strong","strong-0",{"children":"Module:"}]," [[09 - Multithreading and Concurrency/index|← Multithreading and Concurrency Overview]]\n",["$","strong","strong-1",{"children":"Prev:"}]," [[09 - Multithreading and Concurrency/thread-safety-and-synchronization|← Thread Safety & Sync]]\n",["$","strong","strong-2",{"children":"Next:"}]," [[09 - Multithreading and Concurrency/locks-and-synchronization-mechanism|Locks & Sync Mechanisms →]]"]}],"\n"]}],"\n",["$","hr","hr-0",{}],"\n",["$","h3","h2-0",{"className":"font-serif text-2xl font-bold mt-10 mb-4","children":"⚠️ The Problem with Manual Thread Creation"}],"\n",["$","p","p-0",{"className":"mb-6 leading-relaxed text-justify","children":["If we create a new ",["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"std::thread"}]," for every incoming request (e.g., an Uber ride request), we face severe issues at scale:"]}],"\n",["$","ol","ol-0",{"className":"list-decimal list-outside ml-6 mb-6 space-y-2","children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"Thread Explosion:"}]," Thousands of threads overwhelm the OS scheduler."]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":"Context Switching Overhead:"}]," The CPU spends more time switching between threads than doing actual work."]}],"\n",["$","li","li-2",{"children":[["$","strong","strong-0",{"children":"Memory Exhaustion:"}]," Every thread requires a stack (often 1MB-8MB)."]}],"\n",["$","li","li-3",{"children":[["$","strong","strong-0",{"children":"Thread Leaks:"}]," If detached threads aren't managed, they consume resources forever."]}],"\n"]}],"\n",["$","hr","hr-1",{}],"\n",["$","h3","h2-1",{"className":"font-serif text-2xl font-bold mt-10 mb-4","children":"🛠️ The Solution: Thread Pools"}],"\n",["$","p","p-1",{"className":"mb-6 leading-relaxed text-justify","children":["A ","$L4"," contains a fixed number of \"worker threads\" that sit in a loop, picking up tasks from a shared Queue and executing them."]}],"\n","$L5","\n","$L6","\n","$L7","\n","$L8","\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10"]}]]}],["$L11"],"$L12"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"pABUS1kCPhVA1QaI2ni7b"}
+4:["$","strong","strong-0",{"children":"Thread Pool"}]
+5:["$","blockquote","blockquote-1",{"className":"border-l-4 border-black pl-6 py-2 my-8 italic text-neutral-700 bg-neutral-100/50","children":["\n",["$","p","p-0",{"className":"mb-6 leading-relaxed text-justify","children":"[!example] Kitchen Analogy 🍳\nInstead of hiring a new chef every time an order comes in (and firing them after), you hire 5 chefs permanently. They pick up order tickets from a single queue as fast as they can."}],"\n"]}]
+6:["$","h4","h3-0",{"className":"font-serif text-xl font-bold mt-8 mb-4","children":"Key Components of a Thread Pool"}]
+7:["$","ol","ol-1",{"className":"list-decimal list-outside ml-6 mb-6 space-y-2","children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"Task Queue:"}]," A ",["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"std::queue"}]," holding ",["$","code","code-1",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"std::function<void()>"}]," tasks."]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":"Worker Threads:"}]," A ",["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"std::vector<std::thread>"}]," of pre-spawned threads."]}],"\n",["$","li","li-2",{"children":[["$","strong","strong-0",{"children":"Synchronization:"}]," A ",["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"std::mutex"}]," and ",["$","code","code-1",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"std::condition_variable"}]," to safely coordinate the queue."]}],"\n",["$","li","li-3",{"children":[["$","strong","strong-0",{"children":"Shutdown Mechanism:"}]," An atomic flag to tell workers to stop."]}],"\n"]}]
+8:["$","hr","hr-2",{}]
+9:["$","h3","h2-2",{"className":"font-serif text-2xl font-bold mt-10 mb-4","children":"🚀 Building a C++ Thread Pool"}]
+a:["$","p","p-2",{"className":"mb-6 leading-relaxed text-justify","children":"C++ does not provide a built-in Thread Pool (until C++23's executors). Here is a robust custom implementation:"}]
+13:T6df,#include <iostream>
+#include <thread>
+#include <vector>
+#include <queue>
+#include <functional>
+#include <mutex>
+#include <condition_variable>
+
+using namespace std;
+
+class ThreadPool {
+private:
+    vector<thread> workers;
+    queue<function<void()>> tasks;
+    mutex queueMutex;
+    condition_variable condition;
+    bool stop;
+
+public:
+    ThreadPool(int numThreads) : stop(false) {
+        for (int i = 0; i < numThreads; ++i) {
+            workers.emplace_back([this]() {
+                while (true) {
+                    function<void()> task;
+                    {
+                        // Safely pull a task off the queue
+                        unique_lock<mutex> lock(queueMutex);
+                        condition.wait(lock, [this]() {
+                            return stop || !tasks.empty();
+                        });
+                        
+                        // If stopping and queue is empty, exit thread
+                        if (stop && tasks.empty()) return;
+                        
+                        task = move(tasks.front());
+                        tasks.pop();
+                    }
+                    task(); // Execute task OUTSIDE the lock
+                }
+            });
+        }
+    }
+
+    // Submit a Fire-And-Forget task
+    void submit(function<void()> task) {
+        {
+            unique_lock<mutex> lock(queueMutex);
+            tasks.push(move(task));
+        }
+        condition.notify_one(); // Wake up one idle worker
+    }
+
+    ~ThreadPool() {
+        {
+            unique_lock<mutex> lock(queueMutex);
+            stop = true;
+        }
+        condition.notify_all(); // Wake up all workers so they can exit
+        for (thread& t : workers) t.join(); // Wait for all to finish cleanly
+    }
+};
+b:["$","div","pre-0,code-0",{"className":"border border-black my-6 bg-[#F9F9F7] overflow-hidden","children":[["$","div",null,{"className":"border-b border-black bg-black text-white px-4 py-1 text-xs font-mono uppercase tracking-widest flex justify-between","children":["$","span",null,{"children":"cpp"}]}],["$","pre",null,{"className":"p-4 overflow-x-auto text-sm font-mono","children":["$","code",null,{"className":"language-cpp","children":"$13"}]}]]}]
+c:["$","hr","hr-3",{}]
+d:["$","h3","h2-3",{"className":"font-serif text-2xl font-bold mt-10 mb-4","children":"🔄 Types of Thread Pools"}]
+e:["$","ol","ol-2",{"className":"list-decimal list-outside ml-6 mb-6 space-y-2","children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"Fixed Thread Pool:"}]," Pre-allocated, fixed size. Best for bounded resource usage and predictable loads."]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":"Dynamic (Cached) Thread Pool:"}]," Grows on demand, shrinks when idle. Good for bursty loads, but risks thread explosion."]}],"\n",["$","li","li-2",{"children":[["$","strong","strong-0",{"children":"Scheduled Thread Pool:"}]," Executes tasks after a delay or periodically (often implemented with a priority queue)."]}],"\n"]}]
+f:["$","h3","h2-4",{"className":"font-serif text-2xl font-bold mt-10 mb-4","children":"⚖️ Thread Starvation and Fairness"}]
+10:["$","p","p-3",{"className":"mb-6 leading-relaxed text-justify","children":[["$","strong","strong-0",{"children":"Thread Starvation"}]," occurs when low-priority threads never get CPU time because high-priority threads monopolize the CPU.\n",["$","strong","strong-1",{"children":"Fairness"}]," is ensuring all threads get a chance. Our custom Thread Pool uses a ",["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"std::queue"}]," (FIFO), ensuring that tasks are executed in the order they arrive, which promotes fairness at the task level."]}]
+11:["$","script","script-0",{"src":"/lld-notes-website/_next/static/chunks/2zxvdqlxbwu8a.js","async":true}]
+12:["$","$L14",null,{"children":["$","$15",null,{"name":"Next.MetadataOutlet","children":"$@16"}]}]
+16:null

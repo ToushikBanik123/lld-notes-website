@@ -1,0 +1,165 @@
+1:"$Sreact.fragment"
+2:I[93957,["/lld-notes-website/_next/static/chunks/1e780bj939qyz.js","/lld-notes-website/_next/static/chunks/3vhbe5bypqrna.js","/lld-notes-website/_next/static/chunks/2zxvdqlxbwu8a.js"],""]
+3:I[90382,["/lld-notes-website/_next/static/chunks/1e780bj939qyz.js","/lld-notes-website/_next/static/chunks/3vhbe5bypqrna.js","/lld-notes-website/_next/static/chunks/2zxvdqlxbwu8a.js"],"default"]
+17:I[3440,["/lld-notes-website/_next/static/chunks/1e780bj939qyz.js","/lld-notes-website/_next/static/chunks/3vhbe5bypqrna.js"],"OutletBoundary"]
+18:"$Sreact.suspense"
+:HL["../assets/class-diagrams/taskmanagementsystem-class-diagram.png","image"]
+0:{"rsc":["$","$1","c",{"children":[["$","article",null,{"className":"max-w-screen-md mx-auto px-4 py-8 md:py-16","children":[["$","div",null,{"className":"mb-12 border-b-4 border-black pb-8","children":[["$","$L2",null,{"href":"/","className":"inline-flex items-center text-xs font-mono uppercase tracking-widest font-bold mb-6 hover:text-[#CC0000] transition-colors","children":[["$","$L3",null,{"iconNode":[["path",{"d":"m12 19-7-7 7-7","key":"1l729n"}],["path",{"d":"M19 12H5","key":"x3x0zl"}]],"className":"lucide-arrow-left w-4 h-4 mr-2"}],"Back to Index"]}],["$","div",null,{"className":"flex gap-4 items-center mb-4 font-mono text-xs uppercase tracking-widest text-neutral-500","children":[["$","span",null,{"children":["Module: ","13 - Interview Problems Part 1"]}],["$","span",null,{"children":["Published: ","2026-06-12"]}]]}],["$","h1",null,{"className":"font-serif text-4xl md:text-6xl font-black uppercase tracking-tighter leading-none mb-4","children":"Designing a Task Management System"}],["$","div",null,{"className":"flex gap-2 flex-wrap mt-4","children":[["$","span","lld",{"className":"border border-black px-2 py-1 text-[10px] font-mono uppercase tracking-wider","children":"lld"}],["$","span","task-management",{"className":"border border-black px-2 py-1 text-[10px] font-mono uppercase tracking-wider","children":"task-management"}],["$","span","composite-pattern",{"className":"border border-black px-2 py-1 text-[10px] font-mono uppercase tracking-wider","children":"composite-pattern"}],["$","span","state-pattern",{"className":"border border-black px-2 py-1 text-[10px] font-mono uppercase tracking-wider","children":"state-pattern"}],["$","span","observer-pattern",{"className":"border border-black px-2 py-1 text-[10px] font-mono uppercase tracking-wider","children":"observer-pattern"}]]}]]}],["$","div",null,{"className":"prose prose-lg prose-neutral max-w-none font-body","children":[["$","h2","h1-0",{"className":"font-serif text-3xl font-black mt-12 mb-6 uppercase","children":"📌 Designing a Task Management System"}],"\n",["$","blockquote","blockquote-0",{"className":"border-l-4 border-black pl-6 py-2 my-8 italic text-neutral-700 bg-neutral-100/50","children":["\n",["$","p","p-0",{"className":"mb-6 leading-relaxed text-justify","children":["[!info] Navigation\n",["$","strong","strong-0",{"children":"Module:"}]," [[13 - Interview Problems Part 1/index|← Interview Problems Part 1 Overview]]\n",["$","strong","strong-1",{"children":"Prev:"}]," [[13 - Interview Problems Part 1/parking-lot|← Designing a Parking Lot System]]\n",["$","strong","strong-2",{"children":"Next:"}]," [[13 - Interview Problems Part 1/traffic-signal-system|Designing a Traffic Signal System →]]"]}],"\n"]}],"\n",["$","hr","hr-0",{}],"\n",["$","h3","h2-0",{"className":"font-serif text-2xl font-bold mt-10 mb-4","children":"🎯 Step 1: Clarify Requirements"}],"\n",["$","h4","h3-0",{"className":"font-serif text-xl font-bold mt-8 mb-4","children":"Functional Requirements"}],"\n",["$","ol","ol-0",{"className":"list-decimal list-outside ml-6 mb-6 space-y-2","children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"Task CRUD:"}]," Create, read, update, and delete tasks."]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":"Subtasks:"}]," Support recursive task composition (a parent task can have multiple subtasks)."]}],"\n",["$","li","li-2",{"children":[["$","strong","strong-0",{"children":"Workflow Management:"}]," Tasks transition through explicit states (",["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"TODO"}]," → ",["$","code","code-1",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"IN_PROGRESS"}]," → ",["$","code","code-2",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"REVIEW"}]," → ",["$","code","code-3",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"COMPLETED"}],")."]}],"\n","$L4","\n","$L5","\n"]}],"\n","$L6","\n","$L7","\n","$L8","\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13"]}]]}],["$L14"],"$L15"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"pABUS1kCPhVA1QaI2ni7b"}
+4:["$","li","li-3",{"children":[["$","strong","strong-0",{"children":"Search and Sort:"}]," Flexible sorting by Priority, Due Date, or Created Date."]}]
+5:["$","li","li-4",{"children":[["$","strong","strong-0",{"children":"Subscriptions/Notifications:"}]," Users can subscribe to a task and receive notifications when it changes."]}]
+6:["$","h4","h3-1",{"className":"font-serif text-xl font-bold mt-8 mb-4","children":"Non-Functional Requirements"}]
+7:["$","ol","ol-1",{"className":"list-decimal list-outside ml-6 mb-6 space-y-2","children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"Scalability:"}]," System should handle high read-to-write ratios."]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":"Extensibility:"}]," Easy to add new Task States or Sorting strategies."]}],"\n"]}]
+8:["$","hr","hr-1",{}]
+9:["$","h3","h2-1",{"className":"font-serif text-2xl font-bold mt-10 mb-4","children":"🧱 Step 2: Identify Core Entities"}]
+a:["$","p","p-0",{"className":"mb-6 leading-relaxed text-justify","children":["$","span","img-0",{"className":"block border border-black p-2 my-8 hard-shadow-hover","children":["$","img",null,{"className":"w-full h-auto grayscale hover:sepia-[50%] transition-all duration-300","src":"../assets/class-diagrams/taskmanagementsystem-class-diagram.png","alt":"Task Management System Class Diagram"}]}]}]
+b:["$","ol","ol-2",{"className":"list-decimal list-outside ml-6 mb-6 space-y-2","children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":[["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"Task"}],":"]}]," ID, title, description, priority, status, assignee, creator, subtasks (Composite), subscribers (Observer)."]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":[["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"User"}],":"]}]," ID, name, email."]}],"\n",["$","li","li-2",{"children":[["$","strong","strong-0",{"children":[["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"TaskStatus"}]," (Enum):"]}]," TODO, IN_PROGRESS, REVIEW, COMPLETED, CANCELLED."]}],"\n",["$","li","li-3",{"children":[["$","strong","strong-0",{"children":[["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"Priority"}]," (Enum):"]}]," LOW, MEDIUM, HIGH, URGENT."]}],"\n"]}]
+c:["$","hr","hr-2",{}]
+d:["$","h3","h2-2",{"className":"font-serif text-2xl font-bold mt-10 mb-4","children":"⚙️ Step 3: Architecture & Design Patterns"}]
+e:["$","ol","ol-3",{"className":"list-decimal list-outside ml-6 mb-6 space-y-2","children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"Composite Pattern:"}]," For parent tasks and recursive subtasks."]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":"State Pattern:"}]," To manage task workflow transitions strictly."]}],"\n",["$","li","li-2",{"children":[["$","strong","strong-0",{"children":"Strategy Pattern:"}]," For interchangeable task sorting logic (Priority vs Due Date)."]}],"\n",["$","li","li-3",{"children":[["$","strong","strong-0",{"children":"Observer Pattern:"}]," For notifying users when a task state or assignee changes."]}],"\n"]}]
+f:["$","hr","hr-3",{}]
+10:["$","h3","h2-3",{"className":"font-serif text-2xl font-bold mt-10 mb-4","children":"💻 Step 4: Core Implementation (C++)"}]
+16:Te52,#include <iostream>
+#include <string>
+#include <vector>
+#include <memory>
+#include <algorithm>
+
+using namespace std;
+
+// 1. Enums
+enum class TaskStatus { TODO, IN_PROGRESS, REVIEW, COMPLETED };
+enum class Priority { LOW, MEDIUM, HIGH, URGENT };
+
+// Forward declarations
+class Task;
+
+// 2. Observer Pattern (Notifications)
+class TaskObserver {
+public:
+    virtual void update(const Task& task, const string& message) = 0;
+    virtual ~TaskObserver() = default;
+};
+
+class EmailNotifier : public TaskObserver {
+    string email;
+public:
+    EmailNotifier(string e) : email(e) {}
+    void update(const Task& task, const string& message) override {
+        cout << "[Email to " << email << "] Task Update: " << message << endl;
+    }
+};
+
+// 3. State Pattern (Workflow)
+class TaskState {
+public:
+    virtual void advance(Task* task) = 0;
+    virtual string getStateName() = 0;
+    virtual ~TaskState() = default;
+};
+
+class TodoState : public TaskState {
+public:
+    void advance(Task* task) override;
+    string getStateName() override { return "TODO"; }
+};
+
+class InProgressState : public TaskState {
+public:
+    void advance(Task* task) override;
+    string getStateName() override { return "IN_PROGRESS"; }
+};
+
+class CompletedState : public TaskState {
+public:
+    void advance(Task* task) override {
+        cout << "Task already completed!" << endl;
+    }
+    string getStateName() override { return "COMPLETED"; }
+};
+
+// 4. Composite Pattern & Subject (The Task)
+class Task {
+public:
+    int id;
+    string title;
+    Priority priority;
+    unique_ptr<TaskState> state;
+    vector<shared_ptr<Task>> subtasks;
+    vector<shared_ptr<TaskObserver>> subscribers;
+
+    Task(int i, string t, Priority p) : id(i), title(t), priority(p) {
+        state = make_unique<TodoState>();
+    }
+
+    // Observer Methods
+    void subscribe(shared_ptr<TaskObserver> observer) {
+        subscribers.push_back(observer);
+    }
+    void notify(const string& message) {
+        for (auto& sub : subscribers) sub->update(*this, message);
+    }
+
+    // State Methods
+    void advanceState() {
+        state->advance(this);
+        notify("Task moved to state: " + state->getStateName());
+    }
+    void setState(unique_ptr<TaskState> newState) {
+        state = move(newState);
+    }
+
+    // Composite Methods
+    void addSubtask(shared_ptr<Task> subtask) {
+        subtasks.push_back(subtask);
+    }
+};
+
+// State Transitions
+void TodoState::advance(Task* task) {
+    task->setState(make_unique<InProgressState>());
+}
+void InProgressState::advance(Task* task) {
+    task->setState(make_unique<CompletedState>());
+}
+
+// 5. Strategy Pattern (Sorting)
+class SortingStrategy {
+public:
+    virtual void sortTasks(vector<shared_ptr<Task>>& tasks) = 0;
+    virtual ~SortingStrategy() = default;
+};
+
+class PrioritySortingStrategy : public SortingStrategy {
+public:
+    void sortTasks(vector<shared_ptr<Task>>& tasks) override {
+        sort(tasks.begin(), tasks.end(), [](const shared_ptr<Task>& a, const shared_ptr<Task>& b) {
+            return a->priority > b->priority; // URGENT first
+        });
+    }
+};
+
+// Usage
+int main() {
+    auto parentTask = make_shared<Task>(1, "Implement Login", Priority::URGENT);
+    auto childTask1 = make_shared<Task>(2, "Design DB Schema", Priority::HIGH);
+    auto childTask2 = make_shared<Task>(3, "Write API", Priority::MEDIUM);
+
+    // Composite
+    parentTask->addSubtask(childTask1);
+    parentTask->addSubtask(childTask2);
+
+    // Observer
+    auto alice = make_shared<EmailNotifier>("alice@company.com");
+    parentTask->subscribe(alice);
+
+    // State Transition
+    parentTask->advanceState(); // Goes to IN_PROGRESS, Notifies Alice
+
+    return 0;
+}
+11:["$","div","pre-0,code-0",{"className":"border border-black my-6 bg-[#F9F9F7] overflow-hidden","children":[["$","div",null,{"className":"border-b border-black bg-black text-white px-4 py-1 text-xs font-mono uppercase tracking-widest flex justify-between","children":["$","span",null,{"children":"cpp"}]}],["$","pre",null,{"className":"p-4 overflow-x-auto text-sm font-mono","children":["$","code",null,{"className":"language-cpp","children":"$16"}]}]]}]
+12:["$","h3","h2-4",{"className":"font-serif text-2xl font-bold mt-10 mb-4","children":"🚨 Edge Cases Handled"}]
+13:["$","ul","ul-0",{"className":"list-disc list-outside ml-6 mb-6 space-y-2","children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"Invalid Workflow Movement:"}]," Concrete states strictly define what the next state can be. For example, ",["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"CompletedState"}]," refuses to advance further."]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":"Priority Escalation:"}]," In a full implementation, adding an ",["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"URGENT"}]," subtask can recursively traverse up the Composite tree to bump the Parent task's priority to ",["$","code","code-1",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"URGENT"}],"."]}],"\n"]}]
+14:["$","script","script-0",{"src":"/lld-notes-website/_next/static/chunks/2zxvdqlxbwu8a.js","async":true}]
+15:["$","$L17",null,{"children":["$","$18",null,{"name":"Next.MetadataOutlet","children":"$@19"}]}]
+19:null

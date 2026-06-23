@@ -1,0 +1,78 @@
+1:"$Sreact.fragment"
+2:I[93957,["/lld-notes-website/_next/static/chunks/1e780bj939qyz.js","/lld-notes-website/_next/static/chunks/3vhbe5bypqrna.js","/lld-notes-website/_next/static/chunks/2zxvdqlxbwu8a.js"],""]
+3:I[90382,["/lld-notes-website/_next/static/chunks/1e780bj939qyz.js","/lld-notes-website/_next/static/chunks/3vhbe5bypqrna.js","/lld-notes-website/_next/static/chunks/2zxvdqlxbwu8a.js"],"default"]
+1d:I[3440,["/lld-notes-website/_next/static/chunks/1e780bj939qyz.js","/lld-notes-website/_next/static/chunks/3vhbe5bypqrna.js"],"OutletBoundary"]
+1e:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","article",null,{"className":"max-w-screen-md mx-auto px-4 py-8 md:py-16","children":[["$","div",null,{"className":"mb-12 border-b-4 border-black pb-8","children":[["$","$L2",null,{"href":"/","className":"inline-flex items-center text-xs font-mono uppercase tracking-widest font-bold mb-6 hover:text-[#CC0000] transition-colors","children":[["$","$L3",null,{"iconNode":[["path",{"d":"m12 19-7-7 7-7","key":"1l729n"}],["path",{"d":"M19 12H5","key":"x3x0zl"}]],"className":"lucide-arrow-left w-4 h-4 mr-2"}],"Back to Index"]}],["$","div",null,{"className":"flex gap-4 items-center mb-4 font-mono text-xs uppercase tracking-widest text-neutral-500","children":[["$","span",null,{"children":["Module: ","08 - Behavioral Design Patterns"]}],["$","span",null,{"children":["Published: ","2026-06-12"]}]]}],["$","h1",null,{"className":"font-serif text-4xl md:text-6xl font-black uppercase tracking-tighter leading-none mb-4","children":"Memento Pattern"}],["$","div",null,{"className":"flex gap-2 flex-wrap mt-4","children":[["$","span","lld",{"className":"border border-black px-2 py-1 text-[10px] font-mono uppercase tracking-wider","children":"lld"}],["$","span","design-patterns",{"className":"border border-black px-2 py-1 text-[10px] font-mono uppercase tracking-wider","children":"design-patterns"}],["$","span","behavioral",{"className":"border border-black px-2 py-1 text-[10px] font-mono uppercase tracking-wider","children":"behavioral"}],["$","span","memento",{"className":"border border-black px-2 py-1 text-[10px] font-mono uppercase tracking-wider","children":"memento"}]]}]]}],["$","div",null,{"className":"prose prose-lg prose-neutral max-w-none font-body","children":[["$","h2","h1-0",{"className":"font-serif text-3xl font-black mt-12 mb-6 uppercase","children":"📌 Memento Pattern"}],"\n",["$","blockquote","blockquote-0",{"className":"border-l-4 border-black pl-6 py-2 my-8 italic text-neutral-700 bg-neutral-100/50","children":["\n",["$","p","p-0",{"className":"mb-6 leading-relaxed text-justify","children":["[!info] Navigation\n",["$","strong","strong-0",{"children":"Module:"}]," [[00 - Course Overview/index|← Course Overview]]\n",["$","strong","strong-1",{"children":"Prev:"}]," [[08 - Behavioral Design Patterns/mediator-pattern|← Mediator Pattern]]\n",["$","strong","strong-2",{"children":"Next:"}]," [[08 - Behavioral Design Patterns/observer-pattern|Observer Pattern →]]"]}],"\n"]}],"\n",["$","hr","hr-0",{}],"\n",["$","h3","h2-0",{"className":"font-serif text-2xl font-bold mt-10 mb-4","children":"🎯 What is the Memento Pattern?"}],"\n",["$","p","p-0",{"className":"mb-6 leading-relaxed text-justify","children":["The ",["$","strong","strong-0",{"children":"Memento Pattern"}]," is a behavioral design pattern that allows an object to ",["$","strong","strong-1",{"children":"capture its internal state and restore it later"}],"—without violating encapsulation."]}],"\n",["$","p","p-1",{"className":"mb-6 leading-relaxed text-justify","children":["It is the classic pattern used to implement ",["$","strong","strong-0",{"children":"Undo/Redo"}]," functionality or Save/Load mechanisms."]}],"\n",["$","blockquote","blockquote-1",{"className":"border-l-4 border-black pl-6 py-2 my-8 italic text-neutral-700 bg-neutral-100/50","children":["\n",["$","p","p-0",{"className":"mb-6 leading-relaxed text-justify","children":"[!example] Real-World Analogy 🎮\nThink of a Video Game Save File.\nYou play a game, reach a checkpoint, and the game saves your state (health, inventory, level). Later, if you die, you can load that save file. The save file (Memento) is stored on your hard drive (Caretaker), but only the Game Engine (Originator) knows how to read and write the data inside it."}],"\n"]}],"\n",["$","hr","hr-1",{}],"\n",["$","h3","h2-1",{"className":"font-serif text-2xl font-bold mt-10 mb-4","children":"⚠️ The Problem: Breaking Encapsulation for Undo"}],"\n","$L4","\n","$L5","\n","$L6","\n","$L7","\n","$L8","\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19"]}]]}],["$L1a"],"$L1b"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"pABUS1kCPhVA1QaI2ni7b"}
+4:["$","p","p-2",{"className":"mb-6 leading-relaxed text-justify","children":"Imagine building a text or resume editor. To implement \"Undo\", you might be tempted to just copy the object's state from the outside."}]
+5:["$","div","pre-0,code-0",{"className":"border border-black my-6 bg-[#F9F9F7] overflow-hidden","children":[["$","div",null,{"className":"border-b border-black bg-black text-white px-4 py-1 text-xs font-mono uppercase tracking-widest flex justify-between","children":["$","span",null,{"children":"cpp"}]}],["$","pre",null,{"className":"p-4 overflow-x-auto text-sm font-mono","children":["$","code",null,{"className":"language-cpp","children":"// ❌ BAD PRACTICE: Breaking Encapsulation\nclass ResumeEditor {\npublic: // Oh no, everything is public so the outside world can save it!\n    string name;\n    string experience;\n    vector<string> skills;\n};\n\n// Client code trying to manage state manually\nResumeEditor editor;\n// ... editing ...\nstring savedName = editor.name; // Tight coupling to internal structure!\n// If ResumeEditor changes 'name' to a 'struct PersonName', client code breaks.\n"}]}]]}]
+6:["$","hr","hr-2",{}]
+7:["$","h3","h2-2",{"className":"font-serif text-2xl font-bold mt-10 mb-4","children":"🛠️ The Solution: Originator, Memento, and Caretaker"}]
+8:["$","p","p-3",{"className":"mb-6 leading-relaxed text-justify","children":"The pattern introduces three roles to safely manage state:"}]
+9:["$","ol","ol-0",{"className":"list-decimal list-outside ml-6 mb-6 space-y-2","children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"Originator:"}]," The actual object doing the work (e.g., ",["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"ResumeEditor"}],"). It is the ",["$","em","em-0",{"children":"only"}]," one allowed to create and read Mementos."]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":"Memento:"}]," A simple data container holding the saved state. It is immutable to the outside world."]}],"\n",["$","li","li-2",{"children":[["$","strong","strong-0",{"children":"Caretaker:"}]," Holds onto the Mementos (e.g., a History Stack) but ",["$","em","em-0",{"children":"never"}]," peeks inside them."]}],"\n"]}]
+a:["$","h4","h3-0",{"className":"font-serif text-xl font-bold mt-8 mb-4","children":"1. The Originator & Inner Memento Class"}]
+b:["$","p","p-4",{"className":"mb-6 leading-relaxed text-justify","children":["In C++, we can use nested classes or ",["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"friend"}]," classes to ensure only the Originator can access the Memento's data."]}]
+1c:T506,#include <iostream>
+#include <string>
+#include <vector>
+#include <stack>
+using namespace std;
+
+class ResumeEditor {
+private:
+    string name;
+    string experience;
+    vector<string> skills;
+
+public:
+    // --- Business Logic ---
+    void setExperience(const string& exp) { experience = exp; }
+    // ... other setters/getters ...
+
+    // ==========================================
+    // 2. The Memento (Nested Class)
+    // ==========================================
+    class Memento {
+    private: // Private! Only accessible by ResumeEditor (Outer class)
+        string name;
+        string experience;
+        vector<string> skills;
+
+        // Constructor is private/protected so only Originator can create it
+        Memento(string n, string e, vector<string> s) 
+            : name(n), experience(e), skills(s) {}
+        
+        friend class ResumeEditor; // Outer class can access private members
+    };
+    // ==========================================
+
+    // --- State Management ---
+    // Save current state into a Memento
+    Memento save() {
+        return Memento(name, experience, skills);
+    }
+
+    // Restore state from a Memento
+    void restore(const Memento& m) {
+        name = m.name;
+        experience = m.experience;
+        skills = m.skills;
+    }
+};
+c:["$","div","pre-1,code-0",{"className":"border border-black my-6 bg-[#F9F9F7] overflow-hidden","children":[["$","div",null,{"className":"border-b border-black bg-black text-white px-4 py-1 text-xs font-mono uppercase tracking-widest flex justify-between","children":["$","span",null,{"children":"cpp"}]}],["$","pre",null,{"className":"p-4 overflow-x-auto text-sm font-mono","children":["$","code",null,{"className":"language-cpp","children":"$1c"}]}]]}]
+d:["$","h4","h3-1",{"className":"font-serif text-xl font-bold mt-8 mb-4","children":"3. The Caretaker"}]
+e:["$","p","p-5",{"className":"mb-6 leading-relaxed text-justify","children":["The Caretaker manages the history. Notice it uses ",["$","code","code-0",{"className":"bg-neutral-200 px-1.5 py-0.5 font-mono text-sm","children":"ResumeEditor::Memento"}],", but because the Memento's data is private, the Caretaker cannot alter or read the data! It just holds it."]}]
+f:["$","div","pre-2,code-0",{"className":"border border-black my-6 bg-[#F9F9F7] overflow-hidden","children":[["$","div",null,{"className":"border-b border-black bg-black text-white px-4 py-1 text-xs font-mono uppercase tracking-widest flex justify-between","children":["$","span",null,{"children":"cpp"}]}],["$","pre",null,{"className":"p-4 overflow-x-auto text-sm font-mono","children":["$","code",null,{"className":"language-cpp","children":"class ResumeHistory {\nprivate:\n    stack<ResumeEditor::Memento> history; // The undo stack\n\npublic:\n    void save(ResumeEditor& editor) {\n        history.push(editor.save());\n    }\n\n    void undo(ResumeEditor& editor) {\n        if (!history.empty()) {\n            editor.restore(history.top());\n            history.pop();\n        }\n    }\n};\n"}]}]]}]
+10:["$","h4","h3-2",{"className":"font-serif text-xl font-bold mt-8 mb-4","children":"4. Client Code"}]
+11:["$","div","pre-3,code-0",{"className":"border border-black my-6 bg-[#F9F9F7] overflow-hidden","children":[["$","div",null,{"className":"border-b border-black bg-black text-white px-4 py-1 text-xs font-mono uppercase tracking-widest flex justify-between","children":["$","span",null,{"children":"cpp"}]}],["$","pre",null,{"className":"p-4 overflow-x-auto text-sm font-mono","children":["$","code",null,{"className":"language-cpp","children":"int main() {\n    ResumeEditor editor;\n    ResumeHistory history;\n\n    // Step 1: Make edits and save\n    editor.setExperience(\"Fresher\");\n    history.save(editor); // Snapshot 1\n\n    // Step 2: Make more edits\n    editor.setExperience(\"Senior Engineer\");\n    history.save(editor); // Snapshot 2\n\n    // Step 3: Undo\n    history.undo(editor); // Reverts to \"Senior Engineer\"\n    history.undo(editor); // Reverts to \"Fresher\"\n}\n"}]}]]}]
+12:["$","hr","hr-3",{}]
+13:["$","h3","h2-3",{"className":"font-serif text-2xl font-bold mt-10 mb-4","children":"📊 UML Visualization"}]
+14:["$","div","pre-4,code-0",{"className":"border border-black my-6 bg-[#F9F9F7] overflow-hidden","children":[["$","div",null,{"className":"border-b border-black bg-black text-white px-4 py-1 text-xs font-mono uppercase tracking-widest flex justify-between","children":["$","span",null,{"children":"mermaid"}]}],["$","pre",null,{"className":"p-4 overflow-x-auto text-sm font-mono","children":["$","code",null,{"className":"language-mermaid","children":"classDiagram\n    class Caretaker {\n        -history: Stack~Memento~\n        +save()\n        +undo()\n    }\n\n    class Originator {\n        -state\n        +save() Memento\n        +restore(Memento)\n    }\n\n    class Memento {\n        -state\n        -Memento(state)\n        +getState()\n    }\n\n    Caretaker o-- Memento : Holds safely\n    Originator ..> Memento : Creates / Restores\n"}]}]]}]
+15:["$","hr","hr-4",{}]
+16:["$","h3","h2-4",{"className":"font-serif text-2xl font-bold mt-10 mb-4","children":"✅ Pros and Cons"}]
+17:["$","table","table-0",{"children":[["$","thead","thead-0",{"children":["$","tr","tr-0",{"children":[["$","th","th-0",{"children":"Pros"}],["$","th","th-1",{"children":"Cons"}]]}]}],["$","tbody","tbody-0",{"children":[["$","tr","tr-0",{"children":[["$","td","td-0",{"children":[["$","strong","strong-0",{"children":"Encapsulation intact:"}]," State is saved without exposing object internals"]}],["$","td","td-1",{"children":[["$","strong","strong-0",{"children":"High RAM usage:"}]," Storing many large mementos (like massive images) will consume a lot of memory"]}]]}],["$","tr","tr-1",{"children":[["$","td","td-0",{"children":[["$","strong","strong-0",{"children":"Clean Caretaker:"}]," History management is extracted out of the main business logic"]}],["$","td","td-1",{"children":[["$","strong","strong-0",{"children":"Caretaker Complexity:"}]," The caretaker needs to know when to delete old mementos to prevent memory leaks"]}]]}]]}]]}]
+18:["$","hr","hr-5",{}]
+19:["$","blockquote","blockquote-2",{"className":"border-l-4 border-black pl-6 py-2 my-8 italic text-neutral-700 bg-neutral-100/50","children":["\n",["$","p","p-0",{"className":"mb-6 leading-relaxed text-justify","children":"[!tip] Memento vs. Command for Undo\nBoth patterns can implement Undo."}],"\n",["$","ul","ul-0",{"className":"list-disc list-outside ml-6 mb-6 space-y-2","children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"Memento"}]," saves the ",["$","em","em-0",{"children":"entire state"}]," (like a snapshot). Good for small objects."]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":"Command"}]," saves the ",["$","em","em-0",{"children":"action taken"}]," (like a diff). Good for massive objects (like a Photoshop canvas) where full snapshots are too heavy.\nThey are often used together!"]}],"\n"]}],"\n"]}]
+1a:["$","script","script-0",{"src":"/lld-notes-website/_next/static/chunks/2zxvdqlxbwu8a.js","async":true}]
+1b:["$","$L1d",null,{"children":["$","$1e",null,{"name":"Next.MetadataOutlet","children":"$@1f"}]}]
+1f:null
